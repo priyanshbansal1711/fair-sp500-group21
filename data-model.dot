@@ -1,0 +1,44 @@
+digraph G {
+  graph [rankdir=LR, fontname="Inter", fontsize=12, pad=0.3, nodesep=0.5, ranksep=0.9, bgcolor="white",
+         label="Semantic data model - S&P 500 company financials (group 21)\nblue = reused vocabulary term   |   orange = own term (ont: = https://w3id.org/FAIR-course-UT/2025-2026/group21/ont#)\nAll four ont:GICS* classes are rdfs:subClassOf skos:Concept (SKOS)", labelloc=t, labeljust=l];
+  node  [shape=plain, fontname="Inter", fontsize=11];
+  edge  [fontname="Inter", fontsize=10, color="#555555", arrowsize=0.7];
+
+  corp [label=<
+   <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="5" COLOR="#2B6CB0">
+    <TR><TD BGCOLOR="#DCEAF8" ALIGN="CENTER"><B>schema:Corporation</B></TD></TR>
+    <TR><TD ALIGN="LEFT"><FONT COLOR="#2B6CB0">schema:name</FONT> : xsd:string [1]</TD></TR>
+    <TR><TD ALIGN="LEFT"><FONT COLOR="#2B6CB0">schema:tickerSymbol</FONT> : xsd:string [1]</TD></TR>
+    <TR><TD ALIGN="LEFT"><FONT COLOR="#2B6CB0">rdfs:seeAlso</FONT> : SEC EDGAR page IRI [1]</TD></TR>
+   </TABLE>>];
+
+  snap [label=<
+   <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="5" COLOR="#C05621">
+    <TR><TD BGCOLOR="#FBE3CF" ALIGN="CENTER"><B>ont:FinancialSnapshot</B></TD></TR>
+    <TR><TD ALIGN="LEFT"><FONT COLOR="#2B6CB0">dct:date</FONT> : xsd:date [1]</TD></TR>
+    <TR><TD ALIGN="LEFT"><FONT COLOR="#2B6CB0">schema:priceCurrency</FONT> : "USD" [1]</TD></TR>
+    <TR><TD ALIGN="LEFT"><FONT COLOR="#C05621">ont:sharePrice</FONT> : xsd:decimal [0..1]</TD></TR>
+    <TR><TD ALIGN="LEFT"><FONT COLOR="#C05621">ont:priceEarningsRatio</FONT> : xsd:decimal [0..1]</TD></TR>
+    <TR><TD ALIGN="LEFT"><FONT COLOR="#C05621">ont:dividendYield</FONT> : xsd:decimal [0..1]</TD></TR>
+    <TR><TD ALIGN="LEFT"><FONT COLOR="#C05621">ont:earningsPerShare</FONT> : xsd:decimal [0..1]</TD></TR>
+    <TR><TD ALIGN="LEFT"><FONT COLOR="#C05621">ont:marketCapitalization</FONT> : xsd:decimal [0..1]</TD></TR>
+    <TR><TD ALIGN="LEFT"><FONT COLOR="#C05621">ont:ebitda</FONT> : xsd:decimal [0..1]</TD></TR>
+   </TABLE>>];
+
+  sub [label=<
+   <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="5" COLOR="#C05621">
+    <TR><TD BGCOLOR="#FBE3CF" ALIGN="CENTER"><B>ont:GICSSubIndustry</B> (8-digit)</TD></TR>
+    <TR><TD ALIGN="LEFT"><FONT COLOR="#2B6CB0">skos:prefLabel</FONT> : string@en [1]</TD></TR>
+    <TR><TD ALIGN="LEFT"><FONT COLOR="#2B6CB0">skos:notation</FONT> : GICS code [1]</TD></TR>
+   </TABLE>>];
+  ind  [label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="5" COLOR="#C05621"><TR><TD BGCOLOR="#FBE3CF"><B>ont:GICSIndustry</B> (6-digit)</TD></TR></TABLE>>];
+  grp  [label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="5" COLOR="#C05621"><TR><TD BGCOLOR="#FBE3CF"><B>ont:GICSIndustryGroup</B> (4-digit)</TD></TR></TABLE>>];
+  sec  [label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="5" COLOR="#C05621"><TR><TD BGCOLOR="#FBE3CF"><B>ont:GICSSector</B> (2-digit)</TD></TR></TABLE>>];
+
+  corp -> snap [label="ont:hasFinancialSnapshot\n1 .. *     (inverse: ont:snapshotOf)", color="#C05621", fontcolor="#C05621"];
+  corp -> sub  [label="ont:hasGICSSubIndustry\n1", color="#C05621", fontcolor="#C05621"];
+  {rank=same; sub; ind; grp; sec;}
+  sub -> ind   [xlabel="  skos:broader  1", color="#2B6CB0", fontcolor="#2B6CB0"];
+  ind -> grp   [xlabel="  skos:broader  1", color="#2B6CB0", fontcolor="#2B6CB0"];
+  grp -> sec   [xlabel="  skos:broader  1", color="#2B6CB0", fontcolor="#2B6CB0"];
+}

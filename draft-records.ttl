@@ -1,0 +1,95 @@
+@prefix dcat:   <http://www.w3.org/ns/dcat#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix prov:   <http://www.w3.org/ns/prov#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix fdp:    <https://w3id.org/fdp/fdp-o#> .
+@prefix r3d:    <http://www.re3data.org/schema/3-0#> .
+@prefix ldp:    <http://www.w3.org/ns/ldp#> .
+@prefix md:     <https://w3id.org/FAIR-course-UT/2025-2026/group21/metadata/> .
+@prefix g21:    <https://w3id.org/FAIR-course-UT/2025-2026/group21/> .
+
+# DRAFT metadata records (FAIR Data Point -> Catalog -> Dataset -> 2 Distributions).
+# These are what you type into the FDP forms. After saving them in the FDP,
+# export each record with Edit -> "View RDF" and save it as
+# fdp.ttl, catalog.ttl, dataset.ttl, distribution-original.ttl, distribution-rdf.ttl
+# in this folder. The FDP will give the records its own URIs (replacing md:...).
+
+# ---------------------------------------------------------------- FAIR Data Point
+md:fdp
+    a r3d:Repository , fdp:FAIRDataPoint ;
+    dct:title "Group 21 FAIR Data Point - FAIR Data Engineering 2025-2026"@en ;
+    dct:description "Local FAIR Data Point holding the metadata of the FAIRified S&P 500 company financials dataset."@en ;
+    dct:publisher md:publisher ;
+    dct:hasVersion "1.18" ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    ldp:contains md:catalog .
+
+# ---------------------------------------------------------------- Catalog
+md:catalog
+    a dcat:Catalog ;
+    dct:title "Financial market data catalog"@en ;
+    dct:description "Catalog of FAIRified financial market datasets."@en ;
+    dct:publisher md:publisher ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:hasVersion "1.0" ;
+    dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dct:isPartOf md:fdp ;
+    dcat:themeTaxonomy <http://publications.europa.eu/resource/authority/data-theme> ;
+    dcat:dataset md:dataset .
+
+# ---------------------------------------------------------------- Dataset
+md:dataset
+    a dcat:Dataset ;
+    dct:title "S&P 500 companies with financial information (FAIRified)"@en ;
+    dct:description "The 503 constituents of the S&P 500 stock market index (Standard & Poor's 500) with their GICS sub-industry and a snapshot of key market and financial indicators: share price, price/earnings ratio, dividend yield, earnings per share, market capitalisation and EBITDA, in US dollars. Constituent list from Wikipedia; financial values from Yahoo Finance, as compiled by the DataHub Core Datasets project."@en ;
+    dct:creator <https://datahub.io/core> ;
+    dct:publisher md:publisher ;
+    dct:license <https://opendatacommons.org/licenses/pddl/1-0/> ;
+    dcat:keyword "S&P 500"@en , "stock market"@en , "company financials"@en ,
+                 "market capitalisation"@en , "price earnings ratio"@en , "GICS"@en ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+    dct:issued "2026-10-24"^^xsd:date ;
+    dct:temporal [ a dct:PeriodOfTime ; dcat:startDate "2026-10-23"^^xsd:date ; dcat:endDate "2026-10-23"^^xsd:date ] ;
+    dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dct:source <https://en.wikipedia.org/wiki/List_of_S%26P_500_companies> ,
+               <https://finance.yahoo.com> ,
+               <https://datahub.io/core/s-and-p-500-companies-financials> ;
+    dcat:landingPage <https://datahub.io/core/s-and-p-500-companies-financials> ;
+    dct:hasVersion "2026-10-23" ;
+    dct:isPartOf md:catalog ;
+    dcat:distribution md:distribution-original , md:distribution-rdf .
+
+# ---------------------------------------------------------------- Distribution 1: original CSV
+md:distribution-original
+    a dcat:Distribution ;
+    dct:title "Original CSV file (constituents-financials.csv)"@en ;
+    dct:description "Unmodified copy of the file as downloaded from DataHub on 2026-10-24 (14 columns, 503 rows). SHA-256 b5b7de489dff344bb7ba82fa80c8dbd7454fe28a2264ac3da981281c0987777a."@en ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/csv> ;
+    dcat:downloadURL g21:data-original ;
+    dct:source <https://datahub.io/core/s-and-p-500-companies-financials/_r/-/data/constituents-financials.csv> ;
+    dcat:accessURL <https://datahub.io/core/s-and-p-500-companies-financials> ;
+    dct:license <https://opendatacommons.org/licenses/pddl/1-0/> ;
+    dct:issued "2026-10-24"^^xsd:date ;
+    dcat:byteSize "96669"^^xsd:nonNegativeInteger ;
+    dct:isPartOf md:dataset .
+
+# ---------------------------------------------------------------- Distribution 2: RDF (Turtle)
+md:distribution-rdf
+    a dcat:Distribution ;
+    dct:title "FAIRified dataset in RDF (Turtle)"@en ;
+    dct:description "RDF version of the dataset: 503 companies (schema:Corporation) linked to GICS concepts, 486 dated financial snapshots, 7,806 triples."@en ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+    dcat:downloadURL g21:data ;
+    dct:conformsTo g21:ont ;
+    prov:wasDerivedFrom md:distribution-original ;
+    dct:license <https://opendatacommons.org/licenses/pddl/1-0/> ;
+    dct:issued "2026-10-24"^^xsd:date ;
+    dcat:byteSize "329314"^^xsd:nonNegativeInteger ;
+    dct:isPartOf md:dataset .
+
+# ---------------------------------------------------------------- Agents
+<https://datahub.io/core> a foaf:Organization ; foaf:name "DataHub Core Datasets (Datopian)" .
+md:publisher a foaf:Person ; foaf:name "Priyansh Bansal (University of Twente, FAIR Data Engineering group 21)" .

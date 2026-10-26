@@ -1,0 +1,2023 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ont: <https://w3id.org/FAIR-course-UT/2025-2026/group21/ont#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/FAIR-course-UT/2025-2026/group21/ont> a owl:Ontology ;
+    dct:creator "Priyansh Bansal" ;
+    dct:description "Classes and properties used to represent S&P 500 constituent companies, their GICS classification and a dated snapshot of their market and financial indicators."@en ;
+    dct:issued "2026-10-24"^^xsd:date ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "S&P 500 company financials ontology (group 21)"@en ;
+    rdfs:seeAlso <http://www.w3.org/2004/02/skos/core>,
+        schema:Corporation ;
+    owl:versionInfo "1.0" .
+
+ont:dividendYield a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "dividend yield"@en ;
+    rdfs:comment "Annual dividend per share divided by share price, expressed as a decimal fraction (0.02 = 2 %)."@en ;
+    rdfs:domain ont:FinancialSnapshot ;
+    rdfs:range xsd:decimal .
+
+ont:earningsPerShare a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "earnings per share"@en ;
+    rdfs:comment "Trailing twelve-month earnings per share in USD; can be negative."@en ;
+    rdfs:domain ont:FinancialSnapshot ;
+    rdfs:range xsd:decimal .
+
+ont:ebitda a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "EBITDA"@en ;
+    rdfs:comment "Earnings before interest, taxes, depreciation and amortisation (trailing twelve months) in USD."@en ;
+    rdfs:domain ont:FinancialSnapshot ;
+    rdfs:range xsd:decimal .
+
+ont:gics-10101010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-101010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "10101010" ;
+    skos:prefLabel "Oil & Gas Drilling"@en .
+
+ont:gics-10101020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-101010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "10101020" ;
+    skos:prefLabel "Oil & Gas Equipment & Services"@en .
+
+ont:gics-10102010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-101020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "10102010" ;
+    skos:prefLabel "Integrated Oil & Gas"@en .
+
+ont:gics-10102020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-101020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "10102020" ;
+    skos:prefLabel "Oil & Gas Exploration & Production"@en .
+
+ont:gics-10102030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-101020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "10102030" ;
+    skos:prefLabel "Oil & Gas Refining & Marketing"@en .
+
+ont:gics-10102040 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-101020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "10102040" ;
+    skos:prefLabel "Oil & Gas Storage & Transportation"@en .
+
+ont:gics-10102050 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-101020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "10102050" ;
+    skos:prefLabel "Coal & Consumable Fuels"@en .
+
+ont:gics-15101010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-151010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15101010" ;
+    skos:prefLabel "Commodity Chemicals"@en .
+
+ont:gics-15101020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-151010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15101020" ;
+    skos:prefLabel "Diversified Chemicals"@en .
+
+ont:gics-15101030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-151010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15101030" ;
+    skos:prefLabel "Fertilizers & Agricultural Chemicals"@en .
+
+ont:gics-15101040 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-151010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15101040" ;
+    skos:prefLabel "Industrial Gases"@en .
+
+ont:gics-15101050 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-151010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15101050" ;
+    skos:prefLabel "Specialty Chemicals"@en .
+
+ont:gics-15102010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-151020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15102010" ;
+    skos:prefLabel "Construction Materials"@en .
+
+ont:gics-15103010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-151030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15103010" ;
+    skos:prefLabel "Metal, Glass & Plastic Containers"@en .
+
+ont:gics-15103020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-151030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15103020" ;
+    skos:prefLabel "Paper & Plastic Packaging Products & Materials"@en .
+
+ont:gics-15104010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-151040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15104010" ;
+    skos:prefLabel "Aluminum"@en .
+
+ont:gics-15104020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-151040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15104020" ;
+    skos:prefLabel "Diversified Metals & Mining"@en .
+
+ont:gics-15104025 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-151040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15104025" ;
+    skos:prefLabel "Copper"@en .
+
+ont:gics-15104030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-151040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15104030" ;
+    skos:prefLabel "Gold"@en .
+
+ont:gics-15104040 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-151040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15104040" ;
+    skos:prefLabel "Precious Metals & Minerals"@en .
+
+ont:gics-15104045 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-151040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15104045" ;
+    skos:prefLabel "Silver"@en .
+
+ont:gics-15104050 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-151040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15104050" ;
+    skos:prefLabel "Steel"@en .
+
+ont:gics-15105010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-151050 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15105010" ;
+    skos:prefLabel "Forest Products"@en .
+
+ont:gics-15105020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-151050 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15105020" ;
+    skos:prefLabel "Paper Products"@en .
+
+ont:gics-20101010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-201010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20101010" ;
+    skos:prefLabel "Aerospace & Defense"@en .
+
+ont:gics-20102010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-201020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20102010" ;
+    skos:prefLabel "Building Products"@en .
+
+ont:gics-20103010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-201030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20103010" ;
+    skos:prefLabel "Construction & Engineering"@en .
+
+ont:gics-20104010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-201040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20104010" ;
+    skos:prefLabel "Electrical Components & Equipment"@en .
+
+ont:gics-20104020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-201040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20104020" ;
+    skos:prefLabel "Heavy Electrical Equipment"@en .
+
+ont:gics-20105010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-201050 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20105010" ;
+    skos:prefLabel "Industrial Conglomerates"@en .
+
+ont:gics-20106010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-201060 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20106010" ;
+    skos:prefLabel "Construction Machinery & Heavy Transportation Equipment"@en .
+
+ont:gics-20106015 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-201060 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20106015" ;
+    skos:prefLabel "Agricultural & Farm Machinery"@en .
+
+ont:gics-20106020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-201060 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20106020" ;
+    skos:prefLabel "Industrial Machinery & Supplies & Components"@en .
+
+ont:gics-20107010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-201070 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20107010" ;
+    skos:prefLabel "Trading Companies & Distributors"@en .
+
+ont:gics-20201010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-202010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20201010" ;
+    skos:prefLabel "Commercial Printing"@en .
+
+ont:gics-20201050 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-202010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20201050" ;
+    skos:prefLabel "Environmental & Facilities Services"@en .
+
+ont:gics-20201060 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-202010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20201060" ;
+    skos:prefLabel "Office Services & Supplies"@en .
+
+ont:gics-20201070 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-202010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20201070" ;
+    skos:prefLabel "Diversified Support Services"@en .
+
+ont:gics-20201080 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-202010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20201080" ;
+    skos:prefLabel "Security & Alarm Services"@en .
+
+ont:gics-20202010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-202020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20202010" ;
+    skos:prefLabel "Human Resource & Employment Services"@en .
+
+ont:gics-20202020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-202020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20202020" ;
+    skos:prefLabel "Research & Consulting Services"@en .
+
+ont:gics-20202030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-202020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20202030" ;
+    skos:prefLabel "Data Processing & Outsourced Services"@en .
+
+ont:gics-20301010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-203010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20301010" ;
+    skos:prefLabel "Air Freight & Logistics"@en .
+
+ont:gics-20302010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-203020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20302010" ;
+    skos:prefLabel "Passenger Airlines"@en .
+
+ont:gics-20303010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-203030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20303010" ;
+    skos:prefLabel "Marine Transportation"@en .
+
+ont:gics-20304010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-203040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20304010" ;
+    skos:prefLabel "Rail Transportation"@en .
+
+ont:gics-20304030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-203040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20304030" ;
+    skos:prefLabel "Cargo Ground Transportation"@en .
+
+ont:gics-20304040 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-203040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20304040" ;
+    skos:prefLabel "Passenger Ground Transportation"@en .
+
+ont:gics-20305010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-203050 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20305010" ;
+    skos:prefLabel "Airport Services"@en .
+
+ont:gics-20305020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-203050 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20305020" ;
+    skos:prefLabel "Highways & Railtracks"@en .
+
+ont:gics-20305030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-203050 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20305030" ;
+    skos:prefLabel "Marine Ports & Services"@en .
+
+ont:gics-25101010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-251010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25101010" ;
+    skos:prefLabel "Automotive Parts & Equipment"@en .
+
+ont:gics-25101020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-251010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25101020" ;
+    skos:prefLabel "Tires & Rubber"@en .
+
+ont:gics-25102010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-251020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25102010" ;
+    skos:prefLabel "Automobile Manufacturers"@en .
+
+ont:gics-25102020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-251020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25102020" ;
+    skos:prefLabel "Motorcycle Manufacturers"@en .
+
+ont:gics-25201010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-252010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25201010" ;
+    skos:prefLabel "Consumer Electronics"@en .
+
+ont:gics-25201020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-252010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25201020" ;
+    skos:prefLabel "Home Furnishings"@en .
+
+ont:gics-25201030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-252010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25201030" ;
+    skos:prefLabel "Homebuilding"@en .
+
+ont:gics-25201040 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-252010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25201040" ;
+    skos:prefLabel "Household Appliances"@en .
+
+ont:gics-25201050 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-252010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25201050" ;
+    skos:prefLabel "Housewares & Specialties"@en .
+
+ont:gics-25202010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-252020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25202010" ;
+    skos:prefLabel "Leisure Products"@en .
+
+ont:gics-25203010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-252030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25203010" ;
+    skos:prefLabel "Apparel, Accessories & Luxury Goods"@en .
+
+ont:gics-25203020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-252030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25203020" ;
+    skos:prefLabel "Footwear"@en .
+
+ont:gics-25203030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-252030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25203030" ;
+    skos:prefLabel "Textiles"@en .
+
+ont:gics-25301010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-253010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25301010" ;
+    skos:prefLabel "Casinos & Gaming"@en .
+
+ont:gics-25301020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-253010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25301020" ;
+    skos:prefLabel "Hotels, Resorts & Cruise Lines"@en .
+
+ont:gics-25301030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-253010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25301030" ;
+    skos:prefLabel "Leisure Facilities"@en .
+
+ont:gics-25301040 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-253010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25301040" ;
+    skos:prefLabel "Restaurants"@en .
+
+ont:gics-25302010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-253020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25302010" ;
+    skos:prefLabel "Education Services"@en .
+
+ont:gics-25302020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-253020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25302020" ;
+    skos:prefLabel "Specialized Consumer Services"@en .
+
+ont:gics-25501010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-255010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25501010" ;
+    skos:prefLabel "Distributors"@en .
+
+ont:gics-25503030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-255030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25503030" ;
+    skos:prefLabel "Broadline Retail"@en .
+
+ont:gics-25504010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-255040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25504010" ;
+    skos:prefLabel "Apparel Retail"@en .
+
+ont:gics-25504020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-255040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25504020" ;
+    skos:prefLabel "Computer & Electronics Retail"@en .
+
+ont:gics-25504030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-255040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25504030" ;
+    skos:prefLabel "Home Improvement Retail"@en .
+
+ont:gics-25504040 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-255040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25504040" ;
+    skos:prefLabel "Other Specialty Retail"@en .
+
+ont:gics-25504050 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-255040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25504050" ;
+    skos:prefLabel "Automotive Retail"@en .
+
+ont:gics-25504060 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-255040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25504060" ;
+    skos:prefLabel "Homefurnishing Retail"@en .
+
+ont:gics-30101010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-301010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "30101010" ;
+    skos:prefLabel "Drug Retail"@en .
+
+ont:gics-30101020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-301010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "30101020" ;
+    skos:prefLabel "Food Distributors"@en .
+
+ont:gics-30101030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-301010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "30101030" ;
+    skos:prefLabel "Food Retail"@en .
+
+ont:gics-30101040 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-301010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "30101040" ;
+    skos:prefLabel "Consumer Staples Merchandise Retail"@en .
+
+ont:gics-30201010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-302010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "30201010" ;
+    skos:prefLabel "Brewers"@en .
+
+ont:gics-30201020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-302010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "30201020" ;
+    skos:prefLabel "Distillers & Vintners"@en .
+
+ont:gics-30201030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-302010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "30201030" ;
+    skos:prefLabel "Soft Drinks & Non-alcoholic Beverages"@en .
+
+ont:gics-30202010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-302020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "30202010" ;
+    skos:prefLabel "Agricultural Products & Services"@en .
+
+ont:gics-30202030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-302020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "30202030" ;
+    skos:prefLabel "Packaged Foods & Meats"@en .
+
+ont:gics-30203010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-302030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "30203010" ;
+    skos:prefLabel "Tobacco"@en .
+
+ont:gics-30301010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-303010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "30301010" ;
+    skos:prefLabel "Household Products"@en .
+
+ont:gics-30302010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-303020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "30302010" ;
+    skos:prefLabel "Personal Care Products"@en .
+
+ont:gics-35101010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-351010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "35101010" ;
+    skos:prefLabel "Health Care Equipment"@en .
+
+ont:gics-35101020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-351010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "35101020" ;
+    skos:prefLabel "Health Care Supplies"@en .
+
+ont:gics-35102010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-351020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "35102010" ;
+    skos:prefLabel "Health Care Distributors"@en .
+
+ont:gics-35102015 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-351020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "35102015" ;
+    skos:prefLabel "Health Care Services"@en .
+
+ont:gics-35102020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-351020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "35102020" ;
+    skos:prefLabel "Health Care Facilities"@en .
+
+ont:gics-35102030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-351020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "35102030" ;
+    skos:prefLabel "Managed Health Care"@en .
+
+ont:gics-35103010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-351030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "35103010" ;
+    skos:prefLabel "Health Care Technology"@en .
+
+ont:gics-35201010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-352010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "35201010" ;
+    skos:prefLabel "Biotechnology"@en .
+
+ont:gics-35202010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-352020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "35202010" ;
+    skos:prefLabel "Pharmaceuticals"@en .
+
+ont:gics-35203010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-352030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "35203010" ;
+    skos:prefLabel "Life Sciences Tools & Services"@en .
+
+ont:gics-40101010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-401010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40101010" ;
+    skos:prefLabel "Diversified Banks"@en .
+
+ont:gics-40101015 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-401010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40101015" ;
+    skos:prefLabel "Regional Banks"@en .
+
+ont:gics-40201020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-402010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40201020" ;
+    skos:prefLabel "Diversified Financial Services"@en .
+
+ont:gics-40201030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-402010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40201030" ;
+    skos:prefLabel "Multi-Sector Holdings"@en .
+
+ont:gics-40201040 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-402010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40201040" ;
+    skos:prefLabel "Specialized Finance"@en .
+
+ont:gics-40201050 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-402010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40201050" ;
+    skos:prefLabel "Commercial & Residential Mortgage Finance"@en .
+
+ont:gics-40201060 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-402010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40201060" ;
+    skos:prefLabel "Transaction & Payment Processing Services"@en .
+
+ont:gics-40202010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-402020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40202010" ;
+    skos:prefLabel "Consumer Finance"@en .
+
+ont:gics-40203010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-402030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40203010" ;
+    skos:prefLabel "Asset Management & Custody Banks"@en .
+
+ont:gics-40203020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-402030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40203020" ;
+    skos:prefLabel "Investment Banking & Brokerage"@en .
+
+ont:gics-40203030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-402030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40203030" ;
+    skos:prefLabel "Diversified Capital Markets"@en .
+
+ont:gics-40203040 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-402030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40203040" ;
+    skos:prefLabel "Financial Exchanges & Data"@en .
+
+ont:gics-40204010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-402040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40204010" ;
+    skos:prefLabel "Mortgage REITs"@en .
+
+ont:gics-40301010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-403010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40301010" ;
+    skos:prefLabel "Insurance Brokers"@en .
+
+ont:gics-40301020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-403010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40301020" ;
+    skos:prefLabel "Life & Health Insurance"@en .
+
+ont:gics-40301030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-403010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40301030" ;
+    skos:prefLabel "Multi-line Insurance"@en .
+
+ont:gics-40301040 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-403010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40301040" ;
+    skos:prefLabel "Property & Casualty Insurance"@en .
+
+ont:gics-40301050 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-403010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40301050" ;
+    skos:prefLabel "Reinsurance"@en .
+
+ont:gics-45102010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-451020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "45102010" ;
+    skos:prefLabel "IT Consulting & Other Services"@en .
+
+ont:gics-45102030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-451020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "45102030" ;
+    skos:prefLabel "Internet Services & Infrastructure"@en .
+
+ont:gics-45103010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-451030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "45103010" ;
+    skos:prefLabel "Application Software"@en .
+
+ont:gics-45103020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-451030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "45103020" ;
+    skos:prefLabel "Systems Software"@en .
+
+ont:gics-45201020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-452010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "45201020" ;
+    skos:prefLabel "Communications Equipment"@en .
+
+ont:gics-45202030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-452020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "45202030" ;
+    skos:prefLabel "Technology Hardware, Storage & Peripherals"@en .
+
+ont:gics-45203010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-452030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "45203010" ;
+    skos:prefLabel "Electronic Equipment & Instruments"@en .
+
+ont:gics-45203015 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-452030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "45203015" ;
+    skos:prefLabel "Electronic Components"@en .
+
+ont:gics-45203020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-452030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "45203020" ;
+    skos:prefLabel "Electronic Manufacturing Services"@en .
+
+ont:gics-45203030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-452030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "45203030" ;
+    skos:prefLabel "Technology Distributors"@en .
+
+ont:gics-45301010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-453010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "45301010" ;
+    skos:prefLabel "Semiconductor Materials & Equipment"@en .
+
+ont:gics-45301020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-453010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "45301020" ;
+    skos:prefLabel "Semiconductors"@en .
+
+ont:gics-50101010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-501010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "50101010" ;
+    skos:prefLabel "Alternative Carriers"@en .
+
+ont:gics-50101020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-501010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "50101020" ;
+    skos:prefLabel "Integrated Telecommunication Services"@en .
+
+ont:gics-50102010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-501020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "50102010" ;
+    skos:prefLabel "Wireless Telecommunication Services"@en .
+
+ont:gics-50201010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-502010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "50201010" ;
+    skos:prefLabel "Advertising"@en .
+
+ont:gics-50201020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-502010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "50201020" ;
+    skos:prefLabel "Broadcasting"@en .
+
+ont:gics-50201030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-502010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "50201030" ;
+    skos:prefLabel "Cable & Satellite"@en .
+
+ont:gics-50201040 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-502010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "50201040" ;
+    skos:prefLabel "Publishing"@en .
+
+ont:gics-50202010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-502020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "50202010" ;
+    skos:prefLabel "Movies & Entertainment"@en .
+
+ont:gics-50202020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-502020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "50202020" ;
+    skos:prefLabel "Interactive Home Entertainment"@en .
+
+ont:gics-50203010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-502030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "50203010" ;
+    skos:prefLabel "Interactive Media & Services"@en .
+
+ont:gics-55101010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-551010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "55101010" ;
+    skos:prefLabel "Electric Utilities"@en .
+
+ont:gics-55102010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-551020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "55102010" ;
+    skos:prefLabel "Gas Utilities"@en .
+
+ont:gics-55103010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-551030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "55103010" ;
+    skos:prefLabel "Multi-Utilities"@en .
+
+ont:gics-55104010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-551040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "55104010" ;
+    skos:prefLabel "Water Utilities"@en .
+
+ont:gics-55105010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-551050 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "55105010" ;
+    skos:prefLabel "Independent Power Producers & Energy Traders"@en .
+
+ont:gics-55105020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-551050 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "55105020" ;
+    skos:prefLabel "Renewable Electricity"@en .
+
+ont:gics-60101010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-601010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60101010" ;
+    skos:prefLabel "Diversified REITs"@en .
+
+ont:gics-60102510 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-601025 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60102510" ;
+    skos:prefLabel "Industrial REITs"@en .
+
+ont:gics-60103010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-601030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60103010" ;
+    skos:prefLabel "Hotel & Resort REITs"@en .
+
+ont:gics-60104010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-601040 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60104010" ;
+    skos:prefLabel "Office REITs"@en .
+
+ont:gics-60105010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-601050 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60105010" ;
+    skos:prefLabel "Health Care REITs"@en .
+
+ont:gics-60106010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-601060 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60106010" ;
+    skos:prefLabel "Multi-Family Residential REITs"@en .
+
+ont:gics-60106020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-601060 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60106020" ;
+    skos:prefLabel "Single-Family Residential REITs"@en .
+
+ont:gics-60107010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-601070 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60107010" ;
+    skos:prefLabel "Retail REITs"@en .
+
+ont:gics-60108010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-601080 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60108010" ;
+    skos:prefLabel "Other Specialized REITs"@en .
+
+ont:gics-60108020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-601080 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60108020" ;
+    skos:prefLabel "Self-Storage REITs"@en .
+
+ont:gics-60108030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-601080 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60108030" ;
+    skos:prefLabel "Telecom Tower REITs"@en .
+
+ont:gics-60108040 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-601080 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60108040" ;
+    skos:prefLabel "Timber REITs"@en .
+
+ont:gics-60108050 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-601080 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60108050" ;
+    skos:prefLabel "Data Center REITs"@en .
+
+ont:gics-60201010 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-602010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60201010" ;
+    skos:prefLabel "Diversified Real Estate Activities"@en .
+
+ont:gics-60201020 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-602010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60201020" ;
+    skos:prefLabel "Real Estate Operating Companies"@en .
+
+ont:gics-60201030 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-602010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60201030" ;
+    skos:prefLabel "Real Estate Development"@en .
+
+ont:gics-60201040 a skos:Concept,
+        ont:GICSSubIndustry ;
+    skos:broader ont:gics-602010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60201040" ;
+    skos:prefLabel "Real Estate Services"@en .
+
+ont:hasGICSSubIndustry a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has GICS sub-industry"@en ;
+    rdfs:comment "Links a company to the GICS sub-industry it is classified in. Sector, industry group and industry follow via skos:broader."@en ;
+    rdfs:domain schema:Corporation ;
+    rdfs:range ont:GICSSubIndustry .
+
+ont:marketCapitalization a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "market capitalization"@en ;
+    rdfs:comment "Total market value of the company's outstanding shares in USD."@en ;
+    rdfs:domain ont:FinancialSnapshot ;
+    rdfs:range xsd:decimal .
+
+ont:priceEarningsRatio a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "price/earnings ratio"@en ;
+    rdfs:comment "Trailing twelve-month price-to-earnings ratio (dimensionless). Not given when earnings are negative."@en ;
+    rdfs:domain ont:FinancialSnapshot ;
+    rdfs:range xsd:decimal .
+
+ont:sharePrice a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "share price"@en ;
+    rdfs:comment "Price of one share in USD on the snapshot date."@en ;
+    rdfs:domain ont:FinancialSnapshot ;
+    rdfs:range xsd:decimal .
+
+ont:snapshotOf a owl:ObjectProperty ;
+    rdfs:label "snapshot of"@en ;
+    rdfs:domain ont:FinancialSnapshot ;
+    rdfs:range schema:Corporation ;
+    owl:inverseOf ont:hasFinancialSnapshot .
+
+ont:gics-151020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-1510 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "151020" ;
+    skos:prefLabel "Construction Materials"@en .
+
+ont:gics-201010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "201010" ;
+    skos:prefLabel "Aerospace & Defense"@en .
+
+ont:gics-201020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "201020" ;
+    skos:prefLabel "Building Products"@en .
+
+ont:gics-201030 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "201030" ;
+    skos:prefLabel "Construction & Engineering"@en .
+
+ont:gics-201050 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "201050" ;
+    skos:prefLabel "Industrial Conglomerates"@en .
+
+ont:gics-201070 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "201070" ;
+    skos:prefLabel "Trading Companies & Distributors"@en .
+
+ont:gics-203010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "203010" ;
+    skos:prefLabel "Air Freight & Logistics"@en .
+
+ont:gics-203020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "203020" ;
+    skos:prefLabel "Passenger Airlines"@en .
+
+ont:gics-203030 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "203030" ;
+    skos:prefLabel "Marine Transportation"@en .
+
+ont:gics-252020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2520 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "252020" ;
+    skos:prefLabel "Leisure Products"@en .
+
+ont:gics-255010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2550 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "255010" ;
+    skos:prefLabel "Distributors"@en .
+
+ont:gics-255030 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2550 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "255030" ;
+    skos:prefLabel "Broadline Retail"@en .
+
+ont:gics-3010 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-30 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "3010" ;
+    skos:prefLabel "Consumer Staples Distribution & Retail"@en .
+
+ont:gics-302030 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-3020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "302030" ;
+    skos:prefLabel "Tobacco"@en .
+
+ont:gics-303010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-3030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "303010" ;
+    skos:prefLabel "Household Products"@en .
+
+ont:gics-303020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-3030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "303020" ;
+    skos:prefLabel "Personal Care Products"@en .
+
+ont:gics-351030 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-3510 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "351030" ;
+    skos:prefLabel "Health Care Technology"@en .
+
+ont:gics-352010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-3520 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "352010" ;
+    skos:prefLabel "Biotechnology"@en .
+
+ont:gics-352020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-3520 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "352020" ;
+    skos:prefLabel "Pharmaceuticals"@en .
+
+ont:gics-352030 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-3520 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "352030" ;
+    skos:prefLabel "Life Sciences Tools & Services"@en .
+
+ont:gics-4010 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-40 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "4010" ;
+    skos:prefLabel "Banks"@en .
+
+ont:gics-402020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-4020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "402020" ;
+    skos:prefLabel "Consumer Finance"@en .
+
+ont:gics-402040 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-4020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "402040" ;
+    skos:prefLabel "Mortgage Real Estate Investment Trusts (REITs)"@en .
+
+ont:gics-4030 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-40 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "4030" ;
+    skos:prefLabel "Insurance"@en .
+
+ont:gics-452010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-4520 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "452010" ;
+    skos:prefLabel "Communications Equipment"@en .
+
+ont:gics-452020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-4520 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "452020" ;
+    skos:prefLabel "Technology Hardware, Storage & Peripherals"@en .
+
+ont:gics-4530 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-45 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "4530" ;
+    skos:prefLabel "Semiconductors & Semiconductor Equipment"@en .
+
+ont:gics-501020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-5010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "501020" ;
+    skos:prefLabel "Wireless Telecommunication Services"@en .
+
+ont:gics-502030 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-5020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "502030" ;
+    skos:prefLabel "Interactive Media & Services"@en .
+
+ont:gics-551010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-5510 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "551010" ;
+    skos:prefLabel "Electric Utilities"@en .
+
+ont:gics-551020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-5510 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "551020" ;
+    skos:prefLabel "Gas Utilities"@en .
+
+ont:gics-551030 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-5510 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "551030" ;
+    skos:prefLabel "Multi-Utilities"@en .
+
+ont:gics-551040 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-5510 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "551040" ;
+    skos:prefLabel "Water Utilities"@en .
+
+ont:gics-601010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-6010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "601010" ;
+    skos:prefLabel "Diversified REITs"@en .
+
+ont:gics-601025 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-6010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "601025" ;
+    skos:prefLabel "Industrial REITs"@en .
+
+ont:gics-601030 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-6010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "601030" ;
+    skos:prefLabel "Hotel & Resort REITs"@en .
+
+ont:gics-601040 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-6010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "601040" ;
+    skos:prefLabel "Office REITs"@en .
+
+ont:gics-601050 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-6010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "601050" ;
+    skos:prefLabel "Health Care REITs"@en .
+
+ont:gics-601070 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-6010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "601070" ;
+    skos:prefLabel "Retail REITs"@en .
+
+ont:gics-6020 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-60 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "6020" ;
+    skos:prefLabel "Real Estate Management & Development"@en .
+
+ont:hasFinancialSnapshot a owl:ObjectProperty ;
+    rdfs:label "has financial snapshot"@en ;
+    rdfs:comment "Links a company to a dated snapshot of its market and financial indicators."@en ;
+    rdfs:domain schema:Corporation ;
+    rdfs:range ont:FinancialSnapshot .
+
+ont:gics-10 a skos:Concept,
+        ont:GICSSector ;
+    skos:inScheme ont:GICS ;
+    skos:notation "10" ;
+    skos:prefLabel "Energy"@en .
+
+ont:gics-1010 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-10 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "1010" ;
+    skos:prefLabel "Energy"@en .
+
+ont:gics-101010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-1010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "101010" ;
+    skos:prefLabel "Energy Equipment & Services"@en .
+
+ont:gics-15 a skos:Concept,
+        ont:GICSSector ;
+    skos:inScheme ont:GICS ;
+    skos:notation "15" ;
+    skos:prefLabel "Materials"@en .
+
+ont:gics-151030 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-1510 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "151030" ;
+    skos:prefLabel "Containers & Packaging"@en .
+
+ont:gics-151050 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-1510 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "151050" ;
+    skos:prefLabel "Paper & Forest Products"@en .
+
+ont:gics-201040 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "201040" ;
+    skos:prefLabel "Electrical Equipment"@en .
+
+ont:gics-2020 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-20 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "2020" ;
+    skos:prefLabel "Commercial & Professional Services"@en .
+
+ont:gics-2510 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-25 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "2510" ;
+    skos:prefLabel "Automobiles & Components"@en .
+
+ont:gics-251010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2510 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "251010" ;
+    skos:prefLabel "Automobile Components"@en .
+
+ont:gics-251020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2510 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "251020" ;
+    skos:prefLabel "Automobiles"@en .
+
+ont:gics-2530 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-25 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "2530" ;
+    skos:prefLabel "Consumer Services"@en .
+
+ont:gics-253020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2530 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "253020" ;
+    skos:prefLabel "Diversified Consumer Services"@en .
+
+ont:gics-302020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-3020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "302020" ;
+    skos:prefLabel "Food Products"@en .
+
+ont:gics-3030 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-30 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "3030" ;
+    skos:prefLabel "Household & Personal Products"@en .
+
+ont:gics-351010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-3510 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "351010" ;
+    skos:prefLabel "Health Care Equipment & Supplies"@en .
+
+ont:gics-401010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-4010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "401010" ;
+    skos:prefLabel "Banks"@en .
+
+ont:gics-4510 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-45 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "4510" ;
+    skos:prefLabel "Software & Services"@en .
+
+ont:gics-451020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-4510 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "451020" ;
+    skos:prefLabel "IT Services"@en .
+
+ont:gics-451030 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-4510 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "451030" ;
+    skos:prefLabel "Software"@en .
+
+ont:gics-453010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-4530 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "453010" ;
+    skos:prefLabel "Semiconductors & Semiconductor Equipment"@en .
+
+ont:gics-5010 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-50 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "5010" ;
+    skos:prefLabel "Telecommunication Services"@en .
+
+ont:gics-501010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-5010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "501010" ;
+    skos:prefLabel "Diversified Telecommunication Services"@en .
+
+ont:gics-502020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-5020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "502020" ;
+    skos:prefLabel "Entertainment"@en .
+
+ont:gics-55 a skos:Concept,
+        ont:GICSSector ;
+    skos:inScheme ont:GICS ;
+    skos:notation "55" ;
+    skos:prefLabel "Utilities"@en .
+
+ont:gics-551050 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-5510 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "551050" ;
+    skos:prefLabel "Independent Power and Renewable Electricity Producers"@en .
+
+ont:gics-601060 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-6010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "601060" ;
+    skos:prefLabel "Residential REITs"@en .
+
+ont:gics-201060 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "201060" ;
+    skos:prefLabel "Machinery"@en .
+
+ont:gics-202020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "202020" ;
+    skos:prefLabel "Professional Services"@en .
+
+ont:gics-203040 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "203040" ;
+    skos:prefLabel "Ground Transportation"@en .
+
+ont:gics-203050 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "203050" ;
+    skos:prefLabel "Transportation Infrastructure"@en .
+
+ont:gics-2520 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-25 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "2520" ;
+    skos:prefLabel "Consumer Durables & Apparel"@en .
+
+ont:gics-252030 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2520 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "252030" ;
+    skos:prefLabel "Textiles, Apparel & Luxury Goods"@en .
+
+ont:gics-2550 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-25 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "2550" ;
+    skos:prefLabel "Consumer Discretionary Distribution & Retail"@en .
+
+ont:gics-3020 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-30 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "3020" ;
+    skos:prefLabel "Food, Beverage & Tobacco"@en .
+
+ont:gics-302010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-3020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "302010" ;
+    skos:prefLabel "Beverages"@en .
+
+ont:gics-35 a skos:Concept,
+        ont:GICSSector ;
+    skos:inScheme ont:GICS ;
+    skos:notation "35" ;
+    skos:prefLabel "Health Care"@en .
+
+ont:gics-3510 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-35 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "3510" ;
+    skos:prefLabel "Health Care Equipment & Services"@en .
+
+ont:gics-3520 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-35 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "3520" ;
+    skos:prefLabel "Pharmaceuticals, Biotechnology & Life Sciences"@en .
+
+ont:gics-4520 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-45 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "4520" ;
+    skos:prefLabel "Technology Hardware & Equipment"@en .
+
+ont:gics-50 a skos:Concept,
+        ont:GICSSector ;
+    skos:inScheme ont:GICS ;
+    skos:notation "50" ;
+    skos:prefLabel "Communication Services"@en .
+
+ont:gics-5020 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-50 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "5020" ;
+    skos:prefLabel "Media & Entertainment"@en .
+
+ont:gics-60 a skos:Concept,
+        ont:GICSSector ;
+    skos:inScheme ont:GICS ;
+    skos:notation "60" ;
+    skos:prefLabel "Real Estate"@en .
+
+ont:GICSClassificationLevel a owl:Class ;
+    rdfs:label "GICS classification level"@en ;
+    rdfs:comment "A node in the Global Industry Classification Standard (GICS) hierarchy (MSCI / S&P Dow Jones Indices). GICS publishes no URIs, so the nodes are minted here and carry the official 2-, 4-, 6- or 8-digit GICS code as skos:notation."@en ;
+    rdfs:subClassOf skos:Concept .
+
+ont:gics-20 a skos:Concept,
+        ont:GICSSector ;
+    skos:inScheme ont:GICS ;
+    skos:notation "20" ;
+    skos:prefLabel "Industrials"@en .
+
+ont:gics-253010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2530 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "253010" ;
+    skos:prefLabel "Hotels, Restaurants & Leisure"@en .
+
+ont:gics-30 a skos:Concept,
+        ont:GICSSector ;
+    skos:inScheme ont:GICS ;
+    skos:notation "30" ;
+    skos:prefLabel "Consumer Staples"@en .
+
+ont:gics-301010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-3010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "301010" ;
+    skos:prefLabel "Consumer Staples Distribution & Retail"@en .
+
+ont:gics-351020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-3510 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "351020" ;
+    skos:prefLabel "Health Care Providers & Services"@en .
+
+ont:gics-40 a skos:Concept,
+        ont:GICSSector ;
+    skos:inScheme ont:GICS ;
+    skos:notation "40" ;
+    skos:prefLabel "Financials"@en .
+
+ont:gics-4020 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-40 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "4020" ;
+    skos:prefLabel "Financial Services"@en .
+
+ont:gics-402030 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-4020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "402030" ;
+    skos:prefLabel "Capital Markets"@en .
+
+ont:gics-45 a skos:Concept,
+        ont:GICSSector ;
+    skos:inScheme ont:GICS ;
+    skos:notation "45" ;
+    skos:prefLabel "Information Technology"@en .
+
+ont:gics-452030 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-4520 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "452030" ;
+    skos:prefLabel "Electronic Equipment, Instruments & Components"@en .
+
+ont:gics-502010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-5020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "502010" ;
+    skos:prefLabel "Media"@en .
+
+ont:gics-602010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-6020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "602010" ;
+    skos:prefLabel "Real Estate Management & Development"@en .
+
+ont:gics-101020 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-1010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "101020" ;
+    skos:prefLabel "Oil, Gas & Consumable Fuels"@en .
+
+ont:gics-1510 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-15 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "1510" ;
+    skos:prefLabel "Materials"@en .
+
+ont:gics-151010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-1510 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "151010" ;
+    skos:prefLabel "Chemicals"@en .
+
+ont:gics-202010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "202010" ;
+    skos:prefLabel "Commercial Services & Supplies"@en .
+
+ont:gics-2030 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-20 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "2030" ;
+    skos:prefLabel "Transportation"@en .
+
+ont:gics-25 a skos:Concept,
+        ont:GICSSector ;
+    skos:inScheme ont:GICS ;
+    skos:notation "25" ;
+    skos:prefLabel "Consumer Discretionary"@en .
+
+ont:gics-252010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2520 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "252010" ;
+    skos:prefLabel "Household Durables"@en .
+
+ont:gics-402010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-4020 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "402010" ;
+    skos:prefLabel "Financial Services"@en .
+
+ont:gics-403010 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-4030 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "403010" ;
+    skos:prefLabel "Insurance"@en .
+
+ont:gics-5510 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-55 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "5510" ;
+    skos:prefLabel "Utilities"@en .
+
+ont:gics-601080 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-6010 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "601080" ;
+    skos:prefLabel "Specialized REITs"@en .
+
+ont:gics-255040 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-2550 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "255040" ;
+    skos:prefLabel "Specialty Retail"@en .
+
+ont:gics-151040 a skos:Concept,
+        ont:GICSIndustry ;
+    skos:broader ont:gics-1510 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "151040" ;
+    skos:prefLabel "Metals & Mining"@en .
+
+ont:gics-2010 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-20 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "2010" ;
+    skos:prefLabel "Capital Goods"@en .
+
+ont:FinancialSnapshot a owl:Class ;
+    rdfs:label "Financial snapshot"@en ;
+    rdfs:comment "The set of market and financial indicators (price, valuation ratios, earnings, market capitalisation) of one company as published on one date."@en .
+
+ont:gics-6010 a skos:Concept,
+        ont:GICSIndustryGroup ;
+    skos:broader ont:gics-60 ;
+    skos:inScheme ont:GICS ;
+    skos:notation "6010" ;
+    skos:prefLabel "Equity Real Estate Investment Trusts (REITs)"@en .
+
+ont:GICSSector a owl:Class ;
+    rdfs:label "GICS sector"@en ;
+    rdfs:comment "Top level of GICS (2-digit code), e.g. 20 Industrials."@en ;
+    rdfs:subClassOf ont:GICSClassificationLevel .
+
+ont:GICSIndustryGroup a owl:Class ;
+    rdfs:label "GICS industry group"@en ;
+    rdfs:comment "Second level of GICS (4-digit code)."@en ;
+    rdfs:subClassOf ont:GICSClassificationLevel .
+
+ont:GICSIndustry a owl:Class ;
+    rdfs:label "GICS industry"@en ;
+    rdfs:comment "Third level of GICS (6-digit code)."@en ;
+    rdfs:subClassOf ont:GICSClassificationLevel .
+
+ont:GICSSubIndustry a owl:Class ;
+    rdfs:label "GICS sub-industry"@en ;
+    rdfs:comment "Most detailed level of GICS (8-digit code), e.g. 20105010 Industrial Conglomerates."@en ;
+    rdfs:subClassOf ont:GICSClassificationLevel .
+
+ont:GICS a skos:ConceptScheme ;
+    rdfs:label "Global Industry Classification Standard (2023 structure)"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard> ;
+    skos:hasTopConcept ont:gics-10,
+        ont:gics-15,
+        ont:gics-20,
+        ont:gics-25,
+        ont:gics-30,
+        ont:gics-35,
+        ont:gics-40,
+        ont:gics-45,
+        ont:gics-50,
+        ont:gics-55,
+        ont:gics-60 .
+

@@ -1,0 +1,11 @@
+# CQ3: Which companies pay a dividend yield above 3 % and have positive earnings per share?
+PREFIX ont:    <https://w3id.org/FAIR-course-UT/2025-2026/group21/ont#>
+PREFIX schema: <https://schema.org/>
+SELECT ?ticker ?name ?yield ?eps
+WHERE {
+  ?co schema:tickerSymbol ?ticker ; schema:name ?name ;
+      ont:hasFinancialSnapshot ?s .
+  ?s ont:dividendYield ?yield ; ont:earningsPerShare ?eps .
+  FILTER(?yield > 0.03 && ?eps > 0)
+}
+ORDER BY DESC(?yield)

@@ -1,0 +1,44 @@
+@prefix :     <https://w3id.org/FAIR-course-UT/2025-2026/group21/ont#> .
+@prefix sh:   <http://www.w3.org/ns/shacl#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# Metadata schema 3 of 3 - DISTRIBUTION of the FAIRified (RDF) dataset.
+
+:RDFDistributionShape
+    a sh:NodeShape ;
+    sh:property
+        [ sh:path dct:title ;        sh:name "title" ;
+          sh:nodeKind sh:Literal ; sh:minCount 1 ; sh:maxCount 1 ;
+          dash:editor dash:TextFieldEditor ; dash:viewer dash:LiteralViewer ; sh:order 1 ] ,
+        [ sh:path dct:description ;  sh:name "description" ;
+          sh:nodeKind sh:Literal ; sh:maxCount 1 ;
+          dash:editor dash:TextAreaEditor ; dash:viewer dash:LiteralViewer ; sh:order 2 ] ,
+        [ sh:path dcat:mediaType ;   sh:name "media type" ;
+          sh:hasValue <https://www.iana.org/assignments/media-types/text/turtle> ; sh:maxCount 1 ;
+          dash:editor dash:URIEditor ; dash:viewer dash:LabelViewer ; sh:order 3 ] ,
+        # Either a file to download, or a SPARQL endpoint (accessURL), or both.
+        [ sh:path dcat:downloadURL ; sh:name "download URL (w3id of the RDF file)" ;
+          sh:nodeKind sh:IRI ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id.org/FAIR-course-UT/2025-2026/group21/" ;
+          dash:editor dash:URIEditor ; dash:viewer dash:LabelViewer ; sh:order 4 ] ,
+        [ sh:path dcat:accessURL ;   sh:name "access URL (e.g. SPARQL endpoint)" ;
+          sh:nodeKind sh:IRI ; sh:maxCount 1 ;
+          dash:editor dash:URIEditor ; dash:viewer dash:LabelViewer ; sh:order 5 ] ,
+        [ sh:path dct:conformsTo ;   sh:name "conforms to (ontology / semantic data model)" ;
+          sh:nodeKind sh:IRI ; sh:minCount 1 ;
+          dash:editor dash:URIEditor ; dash:viewer dash:LabelViewer ; sh:order 6 ] ,
+        [ sh:path prov:wasDerivedFrom ; sh:name "derived from (original distribution)" ;
+          sh:nodeKind sh:IRI ; sh:minCount 1 ;
+          dash:editor dash:URIEditor ; dash:viewer dash:LabelViewer ; sh:order 7 ] ,
+        [ sh:path dct:license ;      sh:name "license" ;
+          sh:nodeKind sh:IRI ; sh:minCount 1 ; sh:maxCount 1 ;
+          dash:editor dash:URIEditor ; dash:viewer dash:LabelViewer ; sh:order 8 ] ,
+        [ sh:path dct:issued ;       sh:name "issued" ;
+          sh:datatype xsd:date ; sh:maxCount 1 ;
+          dash:editor dash:DatePickerEditor ; dash:viewer dash:LiteralViewer ; sh:order 9 ] ;
+    sh:or ( [ sh:path dcat:downloadURL ; sh:minCount 1 ]
+            [ sh:path dcat:accessURL ;   sh:minCount 1 ] ) .

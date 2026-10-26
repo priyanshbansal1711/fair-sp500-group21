@@ -1,0 +1,129 @@
+@prefix ont:    <https://w3id.org/FAIR-course-UT/2025-2026/group21/ont#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix schema: <https://schema.org/> .
+
+# ---------------------------------------------------------------------------
+# Mini ontology for the FAIRification of the S&P 500 company financials
+# dataset (FAIR Data Engineering, University of Twente, 2025-2026, group 21).
+#
+# Only concepts that were NOT found in existing vocabularies are defined here.
+# Reused terms (schema:Corporation, schema:name, schema:tickerSymbol,
+# schema:priceCurrency, dct:date, rdfs:seeAlso, skos:*) keep their original URIs.
+# ---------------------------------------------------------------------------
+
+<https://w3id.org/FAIR-course-UT/2025-2026/group21/ont>
+    a owl:Ontology ;
+    dct:title "S&P 500 company financials ontology (group 21)"@en ;
+    dct:description "Classes and properties used to represent S&P 500 constituent companies, their GICS classification and a dated snapshot of their market and financial indicators."@en ;
+    dct:creator "Priyansh Bansal" ;
+    dct:issued "2026-10-24"^^xsd:date ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    owl:versionInfo "1.0" ;
+    rdfs:seeAlso <https://schema.org/Corporation> , <http://www.w3.org/2004/02/skos/core> .
+
+# ---------------------------------------------------------------------------
+# Classes
+# ---------------------------------------------------------------------------
+
+ont:FinancialSnapshot
+    a owl:Class ;
+    rdfs:label "Financial snapshot"@en ;
+    rdfs:comment "The set of market and financial indicators (price, valuation ratios, earnings, market capitalisation) of one company as published on one date."@en .
+
+ont:GICSClassificationLevel
+    a owl:Class ;
+    rdfs:subClassOf skos:Concept ;
+    rdfs:label "GICS classification level"@en ;
+    rdfs:comment "A node in the Global Industry Classification Standard (GICS) hierarchy (MSCI / S&P Dow Jones Indices). GICS publishes no URIs, so the nodes are minted here and carry the official 2-, 4-, 6- or 8-digit GICS code as skos:notation."@en .
+
+ont:GICSSector
+    a owl:Class ; rdfs:subClassOf ont:GICSClassificationLevel ;
+    rdfs:label "GICS sector"@en ; rdfs:comment "Top level of GICS (2-digit code), e.g. 20 Industrials."@en .
+
+ont:GICSIndustryGroup
+    a owl:Class ; rdfs:subClassOf ont:GICSClassificationLevel ;
+    rdfs:label "GICS industry group"@en ; rdfs:comment "Second level of GICS (4-digit code)."@en .
+
+ont:GICSIndustry
+    a owl:Class ; rdfs:subClassOf ont:GICSClassificationLevel ;
+    rdfs:label "GICS industry"@en ; rdfs:comment "Third level of GICS (6-digit code)."@en .
+
+ont:GICSSubIndustry
+    a owl:Class ; rdfs:subClassOf ont:GICSClassificationLevel ;
+    rdfs:label "GICS sub-industry"@en ; rdfs:comment "Most detailed level of GICS (8-digit code), e.g. 20105010 Industrial Conglomerates."@en .
+
+ont:GICS
+    a skos:ConceptScheme ;
+    rdfs:label "Global Industry Classification Standard (2023 structure)"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard> .
+
+# ---------------------------------------------------------------------------
+# Object properties
+# ---------------------------------------------------------------------------
+
+ont:hasGICSSubIndustry
+    a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:label "has GICS sub-industry"@en ;
+    rdfs:comment "Links a company to the GICS sub-industry it is classified in. Sector, industry group and industry follow via skos:broader."@en ;
+    rdfs:domain schema:Corporation ;
+    rdfs:range ont:GICSSubIndustry .
+
+ont:hasFinancialSnapshot
+    a owl:ObjectProperty ;
+    rdfs:label "has financial snapshot"@en ;
+    rdfs:comment "Links a company to a dated snapshot of its market and financial indicators."@en ;
+    rdfs:domain schema:Corporation ;
+    rdfs:range ont:FinancialSnapshot .
+
+ont:snapshotOf
+    a owl:ObjectProperty ;
+    owl:inverseOf ont:hasFinancialSnapshot ;
+    rdfs:label "snapshot of"@en ;
+    rdfs:domain ont:FinancialSnapshot ;
+    rdfs:range schema:Corporation .
+
+# ---------------------------------------------------------------------------
+# Datatype properties (all monetary values are in US dollars, see
+# schema:priceCurrency "USD" on each snapshot)
+# ---------------------------------------------------------------------------
+
+ont:sharePrice
+    a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:label "share price"@en ;
+    rdfs:comment "Price of one share in USD on the snapshot date."@en ;
+    rdfs:domain ont:FinancialSnapshot ; rdfs:range xsd:decimal .
+
+ont:priceEarningsRatio
+    a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:label "price/earnings ratio"@en ;
+    rdfs:comment "Trailing twelve-month price-to-earnings ratio (dimensionless). Not given when earnings are negative."@en ;
+    rdfs:domain ont:FinancialSnapshot ; rdfs:range xsd:decimal .
+
+ont:dividendYield
+    a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:label "dividend yield"@en ;
+    rdfs:comment "Annual dividend per share divided by share price, expressed as a decimal fraction (0.02 = 2 %)."@en ;
+    rdfs:domain ont:FinancialSnapshot ; rdfs:range xsd:decimal .
+
+ont:earningsPerShare
+    a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:label "earnings per share"@en ;
+    rdfs:comment "Trailing twelve-month earnings per share in USD; can be negative."@en ;
+    rdfs:domain ont:FinancialSnapshot ; rdfs:range xsd:decimal .
+
+ont:marketCapitalization
+    a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:label "market capitalization"@en ;
+    rdfs:comment "Total market value of the company's outstanding shares in USD."@en ;
+    rdfs:domain ont:FinancialSnapshot ; rdfs:range xsd:decimal .
+
+ont:ebitda
+    a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:label "EBITDA"@en ;
+    rdfs:comment "Earnings before interest, taxes, depreciation and amortisation (trailing twelve months) in USD."@en ;
+    rdfs:domain ont:FinancialSnapshot ; rdfs:range xsd:decimal .

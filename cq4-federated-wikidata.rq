@@ -1,0 +1,21 @@
+# CQ4 (integration, needs a SPARQL endpoint that holds our data and supports SERVICE):
+# Which S&P 500 companies are headquartered outside the United States, and in which country?
+# Linking point: the ticker symbol (Wikidata P249) of the company's NYSE (Q13677) or NASDAQ (Q82059) listing (P414).
+PREFIX schema: <https://schema.org/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p:   <http://www.wikidata.org/prop/>
+PREFIX pq:  <http://www.wikidata.org/prop/qualifier/>
+PREFIX ps:  <http://www.wikidata.org/prop/statement/>
+PREFIX wd:  <http://www.wikidata.org/entity/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?ticker ?name ?countryLabel WHERE {
+  ?co schema:tickerSymbol ?ticker ; schema:name ?name .
+  SERVICE <https://query.wikidata.org/sparql> {
+    ?item p:P414 ?listing .
+    ?listing ps:P414 ?exchange ; pq:P249 ?ticker .
+    VALUES ?exchange { wd:Q13677 wd:Q82059 }
+    ?item wdt:P159/wdt:P17 ?country .
+    FILTER(?country != wd:Q30)
+    ?country rdfs:label ?countryLabel . FILTER(LANG(?countryLabel) = "en")
+  }
+}

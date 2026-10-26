@@ -1,0 +1,10 @@
+# CQ1: What is the total market capitalisation per GICS sector?
+PREFIX ont:  <https://w3id.org/FAIR-course-UT/2025-2026/group21/ont#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT ?sectorLabel (COUNT(?co) AS ?companies) (SUM(?cap)/1e12 AS ?marketCapTrillionUSD)
+WHERE {
+  ?co ont:hasGICSSubIndustry/skos:broader+ ?sector .
+  ?sector a ont:GICSSector ; skos:prefLabel ?sectorLabel .
+  ?co ont:hasFinancialSnapshot/ont:marketCapitalization ?cap .
+}
+GROUP BY ?sectorLabel ORDER BY DESC(?marketCapTrillionUSD)
