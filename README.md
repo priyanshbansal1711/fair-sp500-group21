@@ -1,6 +1,6 @@
 # FAIRification of the S&P 500 company financials dataset
 
-Project for **FAIR Data Engineering (University of Twente, 2025-2026)**, group 21 (Priyansh Bansal).
+Project for **FAIR Data Engineering (University of Twente, 2026-2027)**, group 21 (Priyansh Bansal).
 
 The dataset [S&P 500 Companies with Financial Information](https://datahub.io/core/s-and-p-500-companies-financials)
 (DataHub Core Datasets, ODC-PDDL-1.0) is taken through the FAIRification process: it is described with DCAT
@@ -74,7 +74,7 @@ python scripts/triplify.py    # cleaned CSV  -> ontology + RDF
   original metadata calls it "GICS sector classification". All 127 values were matched to their 8-digit GICS code,
   which also gives sector, industry group and industry through `skos:broader`.
 * 17 companies (e.g. Ansys, Hess, Juniper Networks, Marathon Oil) have no financial values; they keep their company
-  triples but get no snapshot. Missing values are omitted, never set to 0. 46 P/E values are missing (mostly negative earnings).
+  triples but get no snapshot. Missing values are omitted, never set to 0. 46 P/E values are missing: 17 from companies without any figures and 29 from companies with negative earnings, where P/E is not defined.
 
 ## Competency questions
 

@@ -35,7 +35,7 @@ digraph G {
   grp  [label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="5" COLOR="#C05621"><TR><TD BGCOLOR="#FBE3CF"><B>ont:GICSIndustryGroup</B> (4-digit)</TD></TR></TABLE>>];
   sec  [label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="5" COLOR="#C05621"><TR><TD BGCOLOR="#FBE3CF"><B>ont:GICSSector</B> (2-digit)</TD></TR></TABLE>>];
 
-  corp -> snap [label="ont:hasFinancialSnapshot\n1 .. *     (inverse: ont:snapshotOf)", color="#C05621", fontcolor="#C05621"];
+  corp -> snap [label="ont:hasFinancialSnapshot\n0 .. *     (inverse: ont:snapshotOf)", color="#C05621", fontcolor="#C05621"];
   corp -> sub  [label="ont:hasGICSSubIndustry\n1", color="#C05621", fontcolor="#C05621"];
   {rank=same; sub; ind; grp; sec;}
   sub -> ind   [xlabel="  skos:broader  1", color="#2B6CB0", fontcolor="#2B6CB0"];

@@ -9,7 +9,7 @@
 
 # ---------------------------------------------------------------------------
 # Mini ontology for the FAIRification of the S&P 500 company financials
-# dataset (FAIR Data Engineering, University of Twente, 2025-2026, group 21).
+# dataset (FAIR Data Engineering, University of Twente, 2026-2027, group 21).
 #
 # Only concepts that were NOT found in existing vocabularies are defined here.
 # Reused terms (schema:Corporation, schema:name, schema:tickerSymbol,

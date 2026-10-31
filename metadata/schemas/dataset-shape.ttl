@@ -1,4 +1,6 @@
 @prefix :     <https://w3id.org/FAIR-course-UT/2026/group21/shapes/dataset#> .
+@prefix dorig: <https://w3id.org/FAIR-course-UT/2026/group21/shapes/distribution-original#> .
+@prefix drdf: <https://w3id.org/FAIR-course-UT/2026/group21/shapes/distribution-rdf#> .
 @prefix sh:   <http://www.w3.org/ns/shacl#> .
 @prefix dash: <http://datashapes.org/dash#> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
@@ -8,6 +10,8 @@
 
 # Metadata schema 1 of 3 - the DATASET (serialisation-independent description).
 # Every property is reused from W3C DCAT 2, Dublin Core Terms or PROV-O.
+# The two distribution shapes are defined in distribution-original-shape.ttl and
+# distribution-rdf-shape.ttl; load all three files together when validating.
 
 :DatasetShape
     a sh:NodeShape ;
@@ -55,10 +59,10 @@
         # The dataset must be available both as the original file and as RDF.
         [ sh:path dcat:distribution ;  sh:name "distribution" ;
           sh:nodeKind sh:IRI ; sh:minCount 2 ;
-          sh:qualifiedValueShape :OriginalDistributionShape ; sh:qualifiedMinCount 1 ;
+          sh:qualifiedValueShape dorig:OriginalDistributionShape ; sh:qualifiedMinCount 1 ;
           dash:viewer dash:LabelViewer ; sh:order 14 ] ,
         [ sh:path dcat:distribution ;
-          sh:qualifiedValueShape :RDFDistributionShape ; sh:qualifiedMinCount 1 ] .
+          sh:qualifiedValueShape drdf:RDFDistributionShape ; sh:qualifiedMinCount 1 ] .
 
 :PeriodOfTimeShape
     a sh:NodeShape ;

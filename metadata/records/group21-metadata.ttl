@@ -19,7 +19,7 @@
 # ---------------------------------------------------------------- FAIR Data Point
 md:fdp
     a r3d:Repository , fdp:FAIRDataPoint ;
-    dct:title "Group 21 FAIR Data Point - FAIR Data Engineering 2025-2026"@en ;
+    dct:title "Group 21 FAIR Data Point - FAIR Data Engineering 2026-2027"@en ;
     dct:description "Local FAIR Data Point holding the metadata of the FAIRified S&P 500 company financials dataset."@en ;
     dct:publisher md:publisher ;
     dct:hasVersion "1.18" ;
