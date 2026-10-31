@@ -1,4 +1,4 @@
-@prefix :     <https://w3id.org/FAIR-course-UT/2025-2026/group21/ont#> .
+@prefix :     <https://w3id.org/FAIR-course-UT/2026/group21/shapes/dataset#> .
 @prefix sh:   <http://www.w3.org/ns/shacl#> .
 @prefix dash: <http://datashapes.org/dash#> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .

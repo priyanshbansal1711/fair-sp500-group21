@@ -1,4 +1,4 @@
-@prefix :     <https://w3id.org/FAIR-course-UT/2025-2026/group21/ont#> .
+@prefix :     <https://w3id.org/FAIR-course-UT/2026/group21/shapes/distribution-rdf#> .
 @prefix sh:   <http://www.w3.org/ns/shacl#> .
 @prefix dash: <http://datashapes.org/dash#> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
@@ -23,7 +23,7 @@
         # Either a file to download, or a SPARQL endpoint (accessURL), or both.
         [ sh:path dcat:downloadURL ; sh:name "download URL (w3id of the RDF file)" ;
           sh:nodeKind sh:IRI ; sh:maxCount 1 ;
-          sh:pattern "^https://w3id.org/FAIR-course-UT/2025-2026/group21/" ;
+          sh:pattern "^https://w3id.org/FAIR-course-UT/2026/group21/" ;
           dash:editor dash:URIEditor ; dash:viewer dash:LabelViewer ; sh:order 4 ] ,
         [ sh:path dcat:accessURL ;   sh:name "access URL (e.g. SPARQL endpoint)" ;
           sh:nodeKind sh:IRI ; sh:maxCount 1 ;

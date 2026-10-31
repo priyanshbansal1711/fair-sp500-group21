@@ -8,7 +8,7 @@ Scale: yes / partially / no. "Before" = the original DataHub file and its `datap
 | Principle | Criterion | Before | After | Note |
 |---|---|---|---|---|
 | F1 | Globally unique identifier | partially | yes | Before: DataHub download URL, unique but not a PID. After: `w3id.org/.../group21/data`; every company and snapshot has its own URI |
-| F1 | Persistent identifier | no | yes | w3id redirect decouples identifier from file location |
+| F1 | Persistent identifier | no | yes | w3id redirect (course relay, rules in `luizbonino/pid-relay`) decouples identifier from file location |
 | F2 | Has metadata | yes | yes | |
 | F2 | Has rich metadata | partially | yes | Before: title, description, column descriptions; no keywords, theme, date; `Sector` mis-described |
 | F3 | Data identifier in metadata | partially | yes | Before: relative path `data/constituents-financials.csv` |
@@ -31,7 +31,7 @@ Scale: yes / partially / no. "Before" = the original DataHub file and its `datap
 | Principle | Criterion | Before | After | Note |
 |---|---|---|---|---|
 | F1 | Globally unique identifier | no | yes | Before: `datapackage.json` has no identifier of its own. After: each FDP record has a URI |
-| F1 | Persistent identifier | no | partially | FDP record URIs are local (`localhost`) |
+| F1 | Persistent identifier | no | yes | Each record has a w3id PID (`.../group21/metadata/dataset` etc.); the FDP copies have local (`localhost`) URIs |
 | F2 | Rich metadata | partially | yes | DCAT dataset + 2 distributions with 14 / 9 properties |
 | F3 | Includes data identifier | partially | yes | `dcat:distribution`, `dcat:downloadURL` |
 | F4 | Indexed | yes | partially | Local FDP |

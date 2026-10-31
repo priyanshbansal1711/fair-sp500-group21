@@ -1,0 +1,48 @@
+# Copy of the live rules. Authoritative version:
+# https://github.com/luizbonino/pid-relay/tree/main/rules/FAIR-course-UT/2026/group21
+# Group 21 (Priyansh Bansal): FAIRified S&P 500 company financials
+# https://w3id.org/FAIR-course-UT/2026/group21/...
+# Targets live in https://github.com/priyanshbansal1711/fair-sp500-group21
+RewriteEngine on
+
+# Representations depend on the Accept header.
+Header always append Vary Accept
+
+# 1. Ontology and GICS concept scheme (ont#...): Turtle or RDF/XML for machines, repository folder for people.
+RewriteCond %{HTTP_ACCEPT} text/turtle
+RewriteRule ^ont$ https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/ontology/group21-ont.ttl [R=303,L]
+
+RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
+RewriteRule ^ont$ https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/ontology/group21-ont.owl [R=303,L]
+
+RewriteCond %{HTTP_ACCEPT} text/html
+RewriteRule ^ont$ https://github.com/priyanshbansal1711/fair-sp500-group21/tree/main/ontology [R=303,L]
+
+RewriteRule ^ont$ https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/ontology/group21-ont.ttl [R=303,L]
+
+# 2. FAIRified data (data#company-..., data#snapshot-...): Turtle for machines, repository folder for people.
+RewriteCond %{HTTP_ACCEPT} text/turtle
+RewriteRule ^data$ https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/data/rdf/sp500-financials.ttl [R=303,L]
+
+RewriteCond %{HTTP_ACCEPT} text/html
+RewriteRule ^data$ https://github.com/priyanshbansal1711/fair-sp500-group21/tree/main/data/rdf [R=303,L]
+
+RewriteRule ^data$ https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/data/rdf/sp500-financials.ttl [R=303,L]
+
+# 3. Original CSV as downloaded from DataHub (dcat:downloadURL of the original distribution).
+RewriteRule ^data-original$ https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/data/original/constituents-financials.csv [R=302,L]
+
+# 4. DCAT metadata records (FDP, catalog, dataset, distributions, publisher): all described in one Turtle file.
+RewriteCond %{HTTP_ACCEPT} text/html
+RewriteRule ^metadata/(fdp|catalog|dataset|distribution-original|distribution-rdf|publisher)$ https://github.com/priyanshbansal1711/fair-sp500-group21/tree/main/metadata/records [R=303,L]
+
+RewriteRule ^metadata/(fdp|catalog|dataset|distribution-original|distribution-rdf|publisher)$ https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/metadata/records/group21-metadata.ttl [R=303,L]
+
+# 5. SHACL metadata schemas (shapes/dataset#DatasetShape, ...): one Turtle file per schema.
+RewriteCond %{HTTP_ACCEPT} text/html
+RewriteRule ^shapes/(dataset|distribution-original|distribution-rdf)$ https://github.com/priyanshbansal1711/fair-sp500-group21/tree/main/metadata/schemas [R=303,L]
+
+RewriteRule ^shapes/(dataset|distribution-original|distribution-rdf)$ https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/metadata/schemas/$1-shape.ttl [R=303,L]
+
+# 6. Namespace root: the project repository.
+RewriteRule ^$ https://github.com/priyanshbansal1711/fair-sp500-group21 [R=302,L]

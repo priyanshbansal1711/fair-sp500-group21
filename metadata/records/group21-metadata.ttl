@@ -7,14 +7,14 @@
 @prefix fdp:    <https://w3id.org/fdp/fdp-o#> .
 @prefix r3d:    <http://www.re3data.org/schema/3-0#> .
 @prefix ldp:    <http://www.w3.org/ns/ldp#> .
-@prefix md:     <https://w3id.org/FAIR-course-UT/2025-2026/group21/metadata/> .
-@prefix g21:    <https://w3id.org/FAIR-course-UT/2025-2026/group21/> .
+@prefix md:     <https://w3id.org/FAIR-course-UT/2026/group21/metadata/> .
+@prefix g21:    <https://w3id.org/FAIR-course-UT/2026/group21/> .
 
-# DRAFT metadata records (FAIR Data Point -> Catalog -> Dataset -> 2 Distributions).
-# These are what you type into the FDP forms. After saving them in the FDP,
-# export each record with Edit -> "View RDF" and save it as
-# fdp.ttl, catalog.ttl, dataset.ttl, distribution-original.ttl, distribution-rdf.ttl
-# in this folder. The FDP will give the records its own URIs (replacing md:...).
+# Metadata records (FAIR Data Point -> Catalog -> Dataset -> 2 Distributions).
+# Every md:... record has a persistent identifier that resolves to this file, e.g.
+#   https://w3id.org/FAIR-course-UT/2026/group21/metadata/dataset
+# The same records were entered in the local FAIR Data Point; there they get local URIs.
+# Validated with the SHACL schemas in ../schemas/ (all three conform).
 
 # ---------------------------------------------------------------- FAIR Data Point
 md:fdp
@@ -87,7 +87,7 @@ md:distribution-rdf
     prov:wasDerivedFrom md:distribution-original ;
     dct:license <https://opendatacommons.org/licenses/pddl/1-0/> ;
     dct:issued "2026-10-24"^^xsd:date ;
-    dcat:byteSize "329314"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "329304"^^xsd:nonNegativeInteger ;
     dct:isPartOf md:dataset .
 
 # ---------------------------------------------------------------- Agents

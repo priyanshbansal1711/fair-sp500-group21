@@ -1,6 +1,0 @@
-# Redirect rules for https://w3id.org/FAIR-course-UT/ (to be added by the course coordinator)
-# Group 21 - replace YOUR-GITHUB-USER with the GitHub account that hosts the repository.
-RewriteEngine on
-RewriteRule ^2025-2026/group21/ont$           https://github.com/YOUR-GITHUB-USER/fair-sp500-group21/raw/main/ontology/group21-ont.ttl [R=303,L]
-RewriteRule ^2025-2026/group21/data$          https://github.com/YOUR-GITHUB-USER/fair-sp500-group21/raw/main/data/rdf/sp500-financials.ttl [R=303,L]
-RewriteRule ^2025-2026/group21/data-original$ https://github.com/YOUR-GITHUB-USER/fair-sp500-group21/raw/main/data/original/constituents-financials.csv [R=303,L]

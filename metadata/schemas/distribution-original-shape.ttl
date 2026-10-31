@@ -1,4 +1,4 @@
-@prefix :     <https://w3id.org/FAIR-course-UT/2025-2026/group21/ont#> .
+@prefix :     <https://w3id.org/FAIR-course-UT/2026/group21/shapes/distribution-original#> .
 @prefix sh:   <http://www.w3.org/ns/shacl#> .
 @prefix dash: <http://datashapes.org/dash#> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
@@ -22,7 +22,7 @@
           dash:editor dash:URIEditor ; dash:viewer dash:LabelViewer ; sh:order 3 ] ,
         [ sh:path dcat:downloadURL ; sh:name "download URL (w3id of our copy of the original file)" ;
           sh:nodeKind sh:IRI ; sh:minCount 1 ; sh:maxCount 1 ;
-          sh:pattern "^https://w3id.org/FAIR-course-UT/2025-2026/group21/" ;
+          sh:pattern "^https://w3id.org/FAIR-course-UT/2026/group21/" ;
           dash:editor dash:URIEditor ; dash:viewer dash:LabelViewer ; sh:order 4 ] ,
         [ sh:path dct:source ;       sh:name "source (URL the original file was downloaded from)" ;
           sh:nodeKind sh:IRI ; sh:minCount 1 ; sh:maxCount 1 ;

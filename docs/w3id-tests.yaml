@@ -1,0 +1,98 @@
+# Expected redirects for https://w3id.org/FAIR-course-UT/2026/group21/...
+# Each test is one request; every rule in .htaccess has at least one.
+tests:
+- pid: https://w3id.org/FAIR-course-UT/2026/group21/
+  status: 302
+  location: https://github.com/priyanshbansal1711/fair-sp500-group21
+  note: namespace root goes to the project repository
+- pid: https://w3id.org/FAIR-course-UT/2026/group21/ont
+  accept: text/turtle
+  status: 303
+  location: https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/ontology/group21-ont.ttl
+- path: ont
+  accept: application/rdf+xml
+  status: 303
+  location: https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/ontology/group21-ont.owl
+  note: RDF/XML for Protege and OWL tools
+- path: ont
+  accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  status: 303
+  location: https://github.com/priyanshbansal1711/fair-sp500-group21/tree/main/ontology
+  note: browsers get the repository folder
+- path: ont
+  status: 303
+  location: https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/ontology/group21-ont.ttl
+  note: no Accept header defaults to Turtle
+- pid: https://w3id.org/FAIR-course-UT/2026/group21/data
+  accept: text/turtle
+  status: 303
+  location: https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/data/rdf/sp500-financials.ttl
+- path: data
+  accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  status: 303
+  location: https://github.com/priyanshbansal1711/fair-sp500-group21/tree/main/data/rdf
+- path: data
+  accept: '*/*'
+  status: 303
+  location: https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/data/rdf/sp500-financials.ttl
+  note: generic clients default to Turtle
+- pid: https://w3id.org/FAIR-course-UT/2026/group21/data-original
+  status: 302
+  location: https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/data/original/constituents-financials.csv
+- path: metadata/fdp
+  accept: text/turtle
+  status: 303
+  location: https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/metadata/records/group21-metadata.ttl
+- path: metadata/catalog
+  accept: text/turtle
+  status: 303
+  location: https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/metadata/records/group21-metadata.ttl
+- path: metadata/dataset
+  accept: text/turtle
+  status: 303
+  location: https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/metadata/records/group21-metadata.ttl
+- path: metadata/distribution-original
+  accept: text/turtle
+  status: 303
+  location: https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/metadata/records/group21-metadata.ttl
+- path: metadata/distribution-rdf
+  accept: text/turtle
+  status: 303
+  location: https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/metadata/records/group21-metadata.ttl
+- path: metadata/publisher
+  accept: text/turtle
+  status: 303
+  location: https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/metadata/records/group21-metadata.ttl
+- path: metadata/dataset
+  accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  status: 303
+  location: https://github.com/priyanshbansal1711/fair-sp500-group21/tree/main/metadata/records
+  note: browsers get the repository folder
+- path: shapes/dataset
+  accept: text/turtle
+  status: 303
+  location: https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/metadata/schemas/dataset-shape.ttl
+- path: shapes/distribution-original
+  accept: text/turtle
+  status: 303
+  location: https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/metadata/schemas/distribution-original-shape.ttl
+- path: shapes/distribution-rdf
+  accept: text/turtle
+  status: 303
+  location: https://raw.githubusercontent.com/priyanshbansal1711/fair-sp500-group21/main/metadata/schemas/distribution-rdf-shape.ttl
+- path: shapes/dataset
+  accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  status: 303
+  location: https://github.com/priyanshbansal1711/fair-sp500-group21/tree/main/metadata/schemas
+- path: metadata/unknown
+  status: 404
+  note: only the six metadata records exist
+- path: shapes/catalog
+  status: 404
+  note: only the three SHACL schemas exist
+- path: ont/GICSSector
+  status: 404
+  note: ontology terms are hash IRIs (ont#GICSSector), not paths
+- path: Data
+  status: 404
+  note: identifiers are case-sensitive

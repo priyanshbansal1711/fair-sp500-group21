@@ -12,8 +12,8 @@ from rdflib import Graph, Literal, Namespace, URIRef
 from rdflib.namespace import DCTERMS, OWL, RDF, RDFS, SKOS, XSD
 
 ROOT = Path(__file__).resolve().parent.parent
-ONT = Namespace("https://w3id.org/FAIR-course-UT/2025-2026/group21/ont#")
-DATA = Namespace("https://w3id.org/FAIR-course-UT/2025-2026/group21/data#")
+ONT = Namespace("https://w3id.org/FAIR-course-UT/2026/group21/ont#")
+DATA = Namespace("https://w3id.org/FAIR-course-UT/2026/group21/data#")
 SCHEMA = Namespace("https://schema.org/")
 PROV = Namespace("http://www.w3.org/ns/prov#")
 

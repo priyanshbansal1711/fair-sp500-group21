@@ -1,12 +1,12 @@
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix ont: <https://w3id.org/FAIR-course-UT/2025-2026/group21/ont#> .
+@prefix ont: <https://w3id.org/FAIR-course-UT/2026/group21/ont#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/FAIR-course-UT/2025-2026/group21/ont> a owl:Ontology ;
+<https://w3id.org/FAIR-course-UT/2026/group21/ont> a owl:Ontology ;
     dct:creator "Priyansh Bansal" ;
     dct:description "Classes and properties used to represent S&P 500 constituent companies, their GICS classification and a dated snapshot of their market and financial indicators."@en ;
     dct:issued "2026-10-24"^^xsd:date ;

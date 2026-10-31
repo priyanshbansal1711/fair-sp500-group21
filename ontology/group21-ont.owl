@@ -1,0 +1,2314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20107010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Trading Companies &amp; Distributors</skos:prefLabel>
+    <skos:notation>20107010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-201070"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15104025">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Copper</skos:prefLabel>
+    <skos:notation>15104025</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40201020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Diversified Financial Services</skos:prefLabel>
+    <skos:notation>40201020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-402010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-35">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSector"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Health Care</skos:prefLabel>
+    <skos:notation>35</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-201060">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Machinery</skos:prefLabel>
+    <skos:notation>201060</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25201040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Household Appliances</skos:prefLabel>
+    <skos:notation>25201040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-252010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Diversified REITs</skos:prefLabel>
+    <skos:notation>601010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-6010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#snapshotOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#hasFinancialSnapshot"/>
+    <rdfs:label xml:lang="en">snapshot of</rdfs:label>
+    <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#FinancialSnapshot"/>
+    <rdfs:range rdf:resource="https://schema.org/Corporation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-352010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Biotechnology</skos:prefLabel>
+    <skos:notation>352010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-3520"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-3520">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Pharmaceuticals, Biotechnology &amp; Life Sciences</skos:prefLabel>
+    <skos:notation>3520</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Office REITs</skos:prefLabel>
+    <skos:notation>601040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-6010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-10101010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Oil &amp; Gas Drilling</skos:prefLabel>
+    <skos:notation>10101010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-101010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40201030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Multi-Sector Holdings</skos:prefLabel>
+    <skos:notation>40201030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-402010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60105010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Health Care REITs</skos:prefLabel>
+    <skos:notation>60105010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601050"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25201030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Homebuilding</skos:prefLabel>
+    <skos:notation>25201030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-252010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-35102020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Health Care Facilities</skos:prefLabel>
+    <skos:notation>35102020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-351020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40201050">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Commercial &amp; Residential Mortgage Finance</skos:prefLabel>
+    <skos:notation>40201050</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-402010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-201030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Construction &amp; Engineering</skos:prefLabel>
+    <skos:notation>201030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-3010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Consumer Staples Distribution &amp; Retail</skos:prefLabel>
+    <skos:notation>3010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-50101010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Alternative Carriers</skos:prefLabel>
+    <skos:notation>50101010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-501010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-1010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Energy</skos:prefLabel>
+    <skos:notation>1010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20106020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Industrial Machinery &amp; Supplies &amp; Components</skos:prefLabel>
+    <skos:notation>20106020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-201060"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40201060">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Transaction &amp; Payment Processing Services</skos:prefLabel>
+    <skos:notation>40201060</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-402010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15104040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Precious Metals &amp; Minerals</skos:prefLabel>
+    <skos:notation>15104040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40203020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Investment Banking &amp; Brokerage</skos:prefLabel>
+    <skos:notation>40203020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-402030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-251010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Automobile Components</skos:prefLabel>
+    <skos:notation>251010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-45103020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Systems Software</skos:prefLabel>
+    <skos:notation>45103020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-451030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSector"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Industrials</skos:prefLabel>
+    <skos:notation>20</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40301040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Property &amp; Casualty Insurance</skos:prefLabel>
+    <skos:notation>40301040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-403010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25102010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Automobile Manufacturers</skos:prefLabel>
+    <skos:notation>25102010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-251020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-255040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Specialty Retail</skos:prefLabel>
+    <skos:notation>255040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2550"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15104020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Diversified Metals &amp; Mining</skos:prefLabel>
+    <skos:notation>15104020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-35102030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Managed Health Care</skos:prefLabel>
+    <skos:notation>35102030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-351020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4510">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Software &amp; Services</skos:prefLabel>
+    <skos:notation>4510</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-45"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20304030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Cargo Ground Transportation</skos:prefLabel>
+    <skos:notation>20304030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-203040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-6020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Real Estate Management &amp; Development</skos:prefLabel>
+    <skos:notation>6020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-451020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">IT Services</skos:prefLabel>
+    <skos:notation>451020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20102010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Building Products</skos:prefLabel>
+    <skos:notation>20102010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-201020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSector"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Consumer Discretionary</skos:prefLabel>
+    <skos:notation>25</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-203040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Ground Transportation</skos:prefLabel>
+    <skos:notation>203040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-30301010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Household Products</skos:prefLabel>
+    <skos:notation>30301010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-303010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-30101010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Drug Retail</skos:prefLabel>
+    <skos:notation>30101010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-301010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20202030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Data Processing &amp; Outsourced Services</skos:prefLabel>
+    <skos:notation>20202030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-202020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20201060">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Office Services &amp; Supplies</skos:prefLabel>
+    <skos:notation>20201060</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-202010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25501010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Distributors</skos:prefLabel>
+    <skos:notation>25501010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-255010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dct:title xml:lang="en">S&amp;P 500 company financials ontology (group 21)</dct:title>
+    <dct:description xml:lang="en">Classes and properties used to represent S&amp;P 500 constituent companies, their GICS classification and a dated snapshot of their market and financial indicators.</dct:description>
+    <dct:creator>Priyansh Bansal</dct:creator>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-24</dct:issued>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <rdfs:seeAlso rdf:resource="https://schema.org/Corporation"/>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-55101010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Electric Utilities</skos:prefLabel>
+    <skos:notation>55101010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-551010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25302010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Education Services</skos:prefLabel>
+    <skos:notation>25302010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-253020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-202010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Commercial Services &amp; Supplies</skos:prefLabel>
+    <skos:notation>202010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40203030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Diversified Capital Markets</skos:prefLabel>
+    <skos:notation>40203030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-402030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-3020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Food, Beverage &amp; Tobacco</skos:prefLabel>
+    <skos:notation>3020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-3510">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Health Care Equipment &amp; Services</skos:prefLabel>
+    <skos:notation>3510</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25504050">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Automotive Retail</skos:prefLabel>
+    <skos:notation>25504050</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-255040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60108020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Self-Storage REITs</skos:prefLabel>
+    <skos:notation>60108020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601080"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20103010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Construction &amp; Engineering</skos:prefLabel>
+    <skos:notation>20103010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-201030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60106020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Single-Family Residential REITs</skos:prefLabel>
+    <skos:notation>60106020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601060"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-203030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Marine Transportation</skos:prefLabel>
+    <skos:notation>203030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2530">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Consumer Services</skos:prefLabel>
+    <skos:notation>2530</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-50201010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Advertising</skos:prefLabel>
+    <skos:notation>50201010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-502010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-452030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Electronic Equipment, Instruments &amp; Components</skos:prefLabel>
+    <skos:notation>452030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4520"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2510">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Automobiles &amp; Components</skos:prefLabel>
+    <skos:notation>2510</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60201040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Real Estate Services</skos:prefLabel>
+    <skos:notation>60201040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-602010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60201010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Diversified Real Estate Activities</skos:prefLabel>
+    <skos:notation>60201010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-602010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40301020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Life &amp; Health Insurance</skos:prefLabel>
+    <skos:notation>40301020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-403010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#ebitda">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">EBITDA</rdfs:label>
+    <rdfs:comment xml:lang="en">Earnings before interest, taxes, depreciation and amortisation (trailing twelve months) in USD.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#FinancialSnapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-251020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Automobiles</skos:prefLabel>
+    <skos:notation>251020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-602010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Real Estate Management &amp; Development</skos:prefLabel>
+    <skos:notation>602010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-6020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4530">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Semiconductors &amp; Semiconductor Equipment</skos:prefLabel>
+    <skos:notation>4530</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-45"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-50">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSector"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Communication Services</skos:prefLabel>
+    <skos:notation>50</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25203020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Footwear</skos:prefLabel>
+    <skos:notation>25203020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-252030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-303020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Personal Care Products</skos:prefLabel>
+    <skos:notation>303020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-3030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-45203015">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Electronic Components</skos:prefLabel>
+    <skos:notation>45203015</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-452030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-551050">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Independent Power and Renewable Electricity Producers</skos:prefLabel>
+    <skos:notation>551050</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-5510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151050">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Paper &amp; Forest Products</skos:prefLabel>
+    <skos:notation>151050</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-1510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Construction Materials</skos:prefLabel>
+    <skos:notation>151020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-1510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-45102010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">IT Consulting &amp; Other Services</skos:prefLabel>
+    <skos:notation>45102010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-451020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-5020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Media &amp; Entertainment</skos:prefLabel>
+    <skos:notation>5020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-35201010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Biotechnology</skos:prefLabel>
+    <skos:notation>35201010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-352010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40301010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Insurance Brokers</skos:prefLabel>
+    <skos:notation>40301010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-403010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40201040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Specialized Finance</skos:prefLabel>
+    <skos:notation>40201040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-402010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-402010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Financial Services</skos:prefLabel>
+    <skos:notation>402010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60108050">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Data Center REITs</skos:prefLabel>
+    <skos:notation>60108050</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601080"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-45203020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Electronic Manufacturing Services</skos:prefLabel>
+    <skos:notation>45203020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-452030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-45102030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Internet Services &amp; Infrastructure</skos:prefLabel>
+    <skos:notation>45102030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-451020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20201050">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Environmental &amp; Facilities Services</skos:prefLabel>
+    <skos:notation>20201050</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-202010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15103020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Paper &amp; Plastic Packaging Products &amp; Materials</skos:prefLabel>
+    <skos:notation>15103020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Transportation</skos:prefLabel>
+    <skos:notation>2030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSClassificationLevel"/>
+    <rdfs:label xml:lang="en">GICS industry</rdfs:label>
+    <rdfs:comment xml:lang="en">Third level of GICS (6-digit code).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-502030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Interactive Media &amp; Services</skos:prefLabel>
+    <skos:notation>502030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-5020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-203020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Passenger Airlines</skos:prefLabel>
+    <skos:notation>203020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20201080">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Security &amp; Alarm Services</skos:prefLabel>
+    <skos:notation>20201080</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-202010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-45203010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Electronic Equipment &amp; Instruments</skos:prefLabel>
+    <skos:notation>45203010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-452030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Insurance</skos:prefLabel>
+    <skos:notation>4030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-402030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Capital Markets</skos:prefLabel>
+    <skos:notation>402030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25201050">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Housewares &amp; Specialties</skos:prefLabel>
+    <skos:notation>25201050</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-252010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-30201020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Distillers &amp; Vintners</skos:prefLabel>
+    <skos:notation>30201020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-302010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-352030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Life Sciences Tools &amp; Services</skos:prefLabel>
+    <skos:notation>352030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-3520"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-55105010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Independent Power Producers &amp; Energy Traders</skos:prefLabel>
+    <skos:notation>55105010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-551050"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-201070">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Trading Companies &amp; Distributors</skos:prefLabel>
+    <skos:notation>201070</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15104030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Gold</skos:prefLabel>
+    <skos:notation>15104030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-35202010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Pharmaceuticals</skos:prefLabel>
+    <skos:notation>35202010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-352020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20305020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Highways &amp; Railtracks</skos:prefLabel>
+    <skos:notation>20305020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-203050"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40301030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Multi-line Insurance</skos:prefLabel>
+    <skos:notation>40301030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-403010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-50201040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Publishing</skos:prefLabel>
+    <skos:notation>50201040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-502010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40202010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Consumer Finance</skos:prefLabel>
+    <skos:notation>40202010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-402020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15101010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Commodity Chemicals</skos:prefLabel>
+    <skos:notation>15101010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-502010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Media</skos:prefLabel>
+    <skos:notation>502010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-5020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25504010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Apparel Retail</skos:prefLabel>
+    <skos:notation>25504010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-255040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-3030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Household &amp; Personal Products</skos:prefLabel>
+    <skos:notation>3030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15101040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Industrial Gases</skos:prefLabel>
+    <skos:notation>15101040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-50202020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Interactive Home Entertainment</skos:prefLabel>
+    <skos:notation>50202020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-502020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20202010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Human Resource &amp; Employment Services</skos:prefLabel>
+    <skos:notation>20202010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-202020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-30302010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Personal Care Products</skos:prefLabel>
+    <skos:notation>30302010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-303020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20101010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Aerospace &amp; Defense</skos:prefLabel>
+    <skos:notation>20101010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-201010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-50201030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Cable &amp; Satellite</skos:prefLabel>
+    <skos:notation>50201030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-502010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#sharePrice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">share price</rdfs:label>
+    <rdfs:comment xml:lang="en">Price of one share in USD on the snapshot date.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#FinancialSnapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20305030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Marine Ports &amp; Services</skos:prefLabel>
+    <skos:notation>20305030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-203050"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20303010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Marine Transportation</skos:prefLabel>
+    <skos:notation>20303010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-203030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40203010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Asset Management &amp; Custody Banks</skos:prefLabel>
+    <skos:notation>40203010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-402030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-55">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSector"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Utilities</skos:prefLabel>
+    <skos:notation>55</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-253010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Hotels, Restaurants &amp; Leisure</skos:prefLabel>
+    <skos:notation>253010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2530"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSector"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Materials</skos:prefLabel>
+    <skos:notation>15</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60108040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Timber REITs</skos:prefLabel>
+    <skos:notation>60108040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601080"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-35102010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Health Care Distributors</skos:prefLabel>
+    <skos:notation>35102010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-351020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40203040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Financial Exchanges &amp; Data</skos:prefLabel>
+    <skos:notation>40203040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-402030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-402020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Consumer Finance</skos:prefLabel>
+    <skos:notation>402020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-402040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Mortgage Real Estate Investment Trusts (REITs)</skos:prefLabel>
+    <skos:notation>402040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-30101040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Consumer Staples Merchandise Retail</skos:prefLabel>
+    <skos:notation>30101040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-301010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-501020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Wireless Telecommunication Services</skos:prefLabel>
+    <skos:notation>501020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-5010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-302010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Beverages</skos:prefLabel>
+    <skos:notation>302010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-3020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15101050">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Specialty Chemicals</skos:prefLabel>
+    <skos:notation>15101050</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-30202010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Agricultural Products &amp; Services</skos:prefLabel>
+    <skos:notation>30202010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-302020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25504040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Other Specialty Retail</skos:prefLabel>
+    <skos:notation>25504040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-255040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20302010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Passenger Airlines</skos:prefLabel>
+    <skos:notation>20302010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-203020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Capital Goods</skos:prefLabel>
+    <skos:notation>2010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25504030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Home Improvement Retail</skos:prefLabel>
+    <skos:notation>25504030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-255040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-10">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSector"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Energy</skos:prefLabel>
+    <skos:notation>10</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15104050">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Steel</skos:prefLabel>
+    <skos:notation>15104050</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-551010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Electric Utilities</skos:prefLabel>
+    <skos:notation>551010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-5510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-45301020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Semiconductors</skos:prefLabel>
+    <skos:notation>45301020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-453010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60107010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Retail REITs</skos:prefLabel>
+    <skos:notation>60107010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601070"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25102020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Motorcycle Manufacturers</skos:prefLabel>
+    <skos:notation>25102020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-251020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Banks</skos:prefLabel>
+    <skos:notation>4010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601060">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Residential REITs</skos:prefLabel>
+    <skos:notation>601060</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-6010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25503030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Broadline Retail</skos:prefLabel>
+    <skos:notation>25503030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-255030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25504020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Computer &amp; Electronics Retail</skos:prefLabel>
+    <skos:notation>25504020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-255040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-35103010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Health Care Technology</skos:prefLabel>
+    <skos:notation>35103010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-351030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601070">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Retail REITs</skos:prefLabel>
+    <skos:notation>601070</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-6010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-351010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Health Care Equipment &amp; Supplies</skos:prefLabel>
+    <skos:notation>351010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-3510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40101015">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Regional Banks</skos:prefLabel>
+    <skos:notation>40101015</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-401010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20106015">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Agricultural &amp; Farm Machinery</skos:prefLabel>
+    <skos:notation>20106015</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-201060"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-452010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Communications Equipment</skos:prefLabel>
+    <skos:notation>452010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4520"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSector"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Financials</skos:prefLabel>
+    <skos:notation>40</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20202020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Research &amp; Consulting Services</skos:prefLabel>
+    <skos:notation>20202020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-202020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdfs:label xml:lang="en">Global Industry Classification Standard (2023 structure)</rdfs:label>
+    <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-10"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-30"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-35"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-45"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-50"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-55"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-252020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Leisure Products</skos:prefLabel>
+    <skos:notation>252020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2520"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-403010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Insurance</skos:prefLabel>
+    <skos:notation>403010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-551020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Gas Utilities</skos:prefLabel>
+    <skos:notation>551020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-5510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-45103010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Application Software</skos:prefLabel>
+    <skos:notation>45103010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-451030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-50202010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Movies &amp; Entertainment</skos:prefLabel>
+    <skos:notation>50202010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-502020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25301020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Hotels, Resorts &amp; Cruise Lines</skos:prefLabel>
+    <skos:notation>25301020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-253010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60201020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Real Estate Operating Companies</skos:prefLabel>
+    <skos:notation>60201020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-602010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60102510">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Industrial REITs</skos:prefLabel>
+    <skos:notation>60102510</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601025"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Metals &amp; Mining</skos:prefLabel>
+    <skos:notation>151040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-1510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-303010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Household Products</skos:prefLabel>
+    <skos:notation>303010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-3030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-255030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Broadline Retail</skos:prefLabel>
+    <skos:notation>255030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2550"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25201010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Consumer Electronics</skos:prefLabel>
+    <skos:notation>25201010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-252010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#FinancialSnapshot">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Financial snapshot</rdfs:label>
+    <rdfs:comment xml:lang="en">The set of market and financial indicators (price, valuation ratios, earnings, market capitalisation) of one company as published on one date.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-302020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Food Products</skos:prefLabel>
+    <skos:notation>302020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-3020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4520">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Technology Hardware &amp; Equipment</skos:prefLabel>
+    <skos:notation>4520</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-45"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-30203010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Tobacco</skos:prefLabel>
+    <skos:notation>30203010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-302030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-451030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Software</skos:prefLabel>
+    <skos:notation>451030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-252010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Household Durables</skos:prefLabel>
+    <skos:notation>252010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2520"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60103010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Hotel &amp; Resort REITs</skos:prefLabel>
+    <skos:notation>60103010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#marketCapitalization">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">market capitalization</rdfs:label>
+    <rdfs:comment xml:lang="en">Total market value of the company's outstanding shares in USD.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#FinancialSnapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSector">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSClassificationLevel"/>
+    <rdfs:label xml:lang="en">GICS sector</rdfs:label>
+    <rdfs:comment xml:lang="en">Top level of GICS (2-digit code), e.g. 20 Industrials.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-101020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Oil, Gas &amp; Consumable Fuels</skos:prefLabel>
+    <skos:notation>101020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-1010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#priceEarningsRatio">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">price/earnings ratio</rdfs:label>
+    <rdfs:comment xml:lang="en">Trailing twelve-month price-to-earnings ratio (dimensionless). Not given when earnings are negative.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#FinancialSnapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-201010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Aerospace &amp; Defense</skos:prefLabel>
+    <skos:notation>201010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-201020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Building Products</skos:prefLabel>
+    <skos:notation>201020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601050">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Health Care REITs</skos:prefLabel>
+    <skos:notation>601050</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-6010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-10102050">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Coal &amp; Consumable Fuels</skos:prefLabel>
+    <skos:notation>10102050</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-101020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-201040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Electrical Equipment</skos:prefLabel>
+    <skos:notation>201040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Hotel &amp; Resort REITs</skos:prefLabel>
+    <skos:notation>601030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-6010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25202010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Leisure Products</skos:prefLabel>
+    <skos:notation>25202010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-252020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-6010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Equity Real Estate Investment Trusts (REITs)</skos:prefLabel>
+    <skos:notation>6010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-551040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Water Utilities</skos:prefLabel>
+    <skos:notation>551040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-5510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-30101020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Food Distributors</skos:prefLabel>
+    <skos:notation>30101020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-301010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#earningsPerShare">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">earnings per share</rdfs:label>
+    <rdfs:comment xml:lang="en">Trailing twelve-month earnings per share in USD; can be negative.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#FinancialSnapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-45203030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Technology Distributors</skos:prefLabel>
+    <skos:notation>45203030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-452030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20304010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Rail Transportation</skos:prefLabel>
+    <skos:notation>20304010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-203040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Commercial &amp; Professional Services</skos:prefLabel>
+    <skos:notation>2020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-35203010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Life Sciences Tools &amp; Services</skos:prefLabel>
+    <skos:notation>35203010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-352030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15104045">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Silver</skos:prefLabel>
+    <skos:notation>15104045</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-252030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Textiles, Apparel &amp; Luxury Goods</skos:prefLabel>
+    <skos:notation>252030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2520"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Financial Services</skos:prefLabel>
+    <skos:notation>4020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSClassificationLevel"/>
+    <rdfs:label xml:lang="en">GICS sub-industry</rdfs:label>
+    <rdfs:comment xml:lang="en">Most detailed level of GICS (8-digit code), e.g. 20105010 Industrial Conglomerates.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20104020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Heavy Electrical Equipment</skos:prefLabel>
+    <skos:notation>20104020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-201040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25301010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Casinos &amp; Gaming</skos:prefLabel>
+    <skos:notation>25301010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-253010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-352020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Pharmaceuticals</skos:prefLabel>
+    <skos:notation>352020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-3520"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-10102030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Oil &amp; Gas Refining &amp; Marketing</skos:prefLabel>
+    <skos:notation>10102030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-101020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-5510">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Utilities</skos:prefLabel>
+    <skos:notation>5510</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-55"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-351020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Health Care Providers &amp; Services</skos:prefLabel>
+    <skos:notation>351020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-3510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60104010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Office REITs</skos:prefLabel>
+    <skos:notation>60104010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-30201030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Soft Drinks &amp; Non-alcoholic Beverages</skos:prefLabel>
+    <skos:notation>30201030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-302010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60108010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Other Specialized REITs</skos:prefLabel>
+    <skos:notation>60108010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601080"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-30202030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Packaged Foods &amp; Meats</skos:prefLabel>
+    <skos:notation>30202030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-302020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25301030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Leisure Facilities</skos:prefLabel>
+    <skos:notation>25301030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-253010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15104010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Aluminum</skos:prefLabel>
+    <skos:notation>15104010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40101010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Diversified Banks</skos:prefLabel>
+    <skos:notation>40101010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-401010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20105010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Industrial Conglomerates</skos:prefLabel>
+    <skos:notation>20105010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-201050"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40204010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Mortgage REITs</skos:prefLabel>
+    <skos:notation>40204010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-402040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15103010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Metal, Glass &amp; Plastic Containers</skos:prefLabel>
+    <skos:notation>15103010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-50201020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Broadcasting</skos:prefLabel>
+    <skos:notation>50201020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-502010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25301040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Restaurants</skos:prefLabel>
+    <skos:notation>25301040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-253010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-45201020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Communications Equipment</skos:prefLabel>
+    <skos:notation>45201020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-452010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-501010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Diversified Telecommunication Services</skos:prefLabel>
+    <skos:notation>501010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-5010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Containers &amp; Packaging</skos:prefLabel>
+    <skos:notation>151030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-1510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25101010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Automotive Parts &amp; Equipment</skos:prefLabel>
+    <skos:notation>25101010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-251010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601025">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Industrial REITs</skos:prefLabel>
+    <skos:notation>601025</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-6010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25201020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Home Furnishings</skos:prefLabel>
+    <skos:notation>25201020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-252010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25203010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Apparel, Accessories &amp; Luxury Goods</skos:prefLabel>
+    <skos:notation>25203010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-252030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-101010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Energy Equipment &amp; Services</skos:prefLabel>
+    <skos:notation>101010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-1010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-40301050">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Reinsurance</skos:prefLabel>
+    <skos:notation>40301050</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-403010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-35101020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Health Care Supplies</skos:prefLabel>
+    <skos:notation>35101020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-351010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20304040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Passenger Ground Transportation</skos:prefLabel>
+    <skos:notation>20304040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-203040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25203030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Textiles</skos:prefLabel>
+    <skos:notation>25203030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-252030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-55105020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Renewable Electricity</skos:prefLabel>
+    <skos:notation>55105020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-551050"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSClassificationLevel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label xml:lang="en">GICS classification level</rdfs:label>
+    <rdfs:comment xml:lang="en">A node in the Global Industry Classification Standard (GICS) hierarchy (MSCI / S&amp;P Dow Jones Indices). GICS publishes no URIs, so the nodes are minted here and carry the official 2-, 4-, 6- or 8-digit GICS code as skos:notation.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20104010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Electrical Components &amp; Equipment</skos:prefLabel>
+    <skos:notation>20104010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-201040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-30101030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Food Retail</skos:prefLabel>
+    <skos:notation>30101030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-301010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601080">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Specialized REITs</skos:prefLabel>
+    <skos:notation>601080</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-6010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-55103010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Multi-Utilities</skos:prefLabel>
+    <skos:notation>55103010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-551030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-201050">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Industrial Conglomerates</skos:prefLabel>
+    <skos:notation>201050</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-50102010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Wireless Telecommunication Services</skos:prefLabel>
+    <skos:notation>50102010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-501020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-55102010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Gas Utilities</skos:prefLabel>
+    <skos:notation>55102010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-551020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15101030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Fertilizers &amp; Agricultural Chemicals</skos:prefLabel>
+    <skos:notation>15101030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20201070">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Diversified Support Services</skos:prefLabel>
+    <skos:notation>20201070</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-202010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2520">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Consumer Durables &amp; Apparel</skos:prefLabel>
+    <skos:notation>2520</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25101020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Tires &amp; Rubber</skos:prefLabel>
+    <skos:notation>25101020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-251010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-10102020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Oil &amp; Gas Exploration &amp; Production</skos:prefLabel>
+    <skos:notation>10102020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-101020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-5010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Telecommunication Services</skos:prefLabel>
+    <skos:notation>5010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60101010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Diversified REITs</skos:prefLabel>
+    <skos:notation>60101010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20106010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Construction Machinery &amp; Heavy Transportation Equipment</skos:prefLabel>
+    <skos:notation>20106010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-201060"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-35101010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Health Care Equipment</skos:prefLabel>
+    <skos:notation>35101010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-351010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-453010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Semiconductors &amp; Semiconductor Equipment</skos:prefLabel>
+    <skos:notation>453010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4530"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60106010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Multi-Family Residential REITs</skos:prefLabel>
+    <skos:notation>60106010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601060"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-30">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSector"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Consumer Staples</skos:prefLabel>
+    <skos:notation>30</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20201010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Commercial Printing</skos:prefLabel>
+    <skos:notation>20201010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-202010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-502020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Entertainment</skos:prefLabel>
+    <skos:notation>502020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-5020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-45301010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Semiconductor Materials &amp; Equipment</skos:prefLabel>
+    <skos:notation>45301010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-453010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-452020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Technology Hardware, Storage &amp; Peripherals</skos:prefLabel>
+    <skos:notation>452020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4520"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-10101020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Oil &amp; Gas Equipment &amp; Services</skos:prefLabel>
+    <skos:notation>10101020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-101010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20301010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Air Freight &amp; Logistics</skos:prefLabel>
+    <skos:notation>20301010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-203010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15101020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Diversified Chemicals</skos:prefLabel>
+    <skos:notation>15101020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-302030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Tobacco</skos:prefLabel>
+    <skos:notation>302030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-3020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-351030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Health Care Technology</skos:prefLabel>
+    <skos:notation>351030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-3510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15105020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Paper Products</skos:prefLabel>
+    <skos:notation>15105020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151050"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-50203010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Interactive Media &amp; Services</skos:prefLabel>
+    <skos:notation>50203010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-502030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15102010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Construction Materials</skos:prefLabel>
+    <skos:notation>15102010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25504060">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Homefurnishing Retail</skos:prefLabel>
+    <skos:notation>25504060</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-255040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-401010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Banks</skos:prefLabel>
+    <skos:notation>401010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-4010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-202020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Professional Services</skos:prefLabel>
+    <skos:notation>202020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#hasGICSSubIndustry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">has GICS sub-industry</rdfs:label>
+    <rdfs:comment xml:lang="en">Links a company to the GICS sub-industry it is classified in. Sector, industry group and industry follow via skos:broader.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://schema.org/Corporation"/>
+    <rdfs:range rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-253020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Diversified Consumer Services</skos:prefLabel>
+    <skos:notation>253020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2530"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-55104010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Water Utilities</skos:prefLabel>
+    <skos:notation>55104010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-551040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-551030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Multi-Utilities</skos:prefLabel>
+    <skos:notation>551030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-5510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Chemicals</skos:prefLabel>
+    <skos:notation>151010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-1510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-50101020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Integrated Telecommunication Services</skos:prefLabel>
+    <skos:notation>50101020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-501010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-203050">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Transportation Infrastructure</skos:prefLabel>
+    <skos:notation>203050</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-10102040">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Oil &amp; Gas Storage &amp; Transportation</skos:prefLabel>
+    <skos:notation>10102040</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-101020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-203010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Air Freight &amp; Logistics</skos:prefLabel>
+    <skos:notation>203010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-20305010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Airport Services</skos:prefLabel>
+    <skos:notation>20305010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-203050"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-1510">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Materials</skos:prefLabel>
+    <skos:notation>1510</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#dividendYield">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">dividend yield</rdfs:label>
+    <rdfs:comment xml:lang="en">Annual dividend per share divided by share price, expressed as a decimal fraction (0.02 = 2 %).</rdfs:comment>
+    <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#FinancialSnapshot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60108030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Telecom Tower REITs</skos:prefLabel>
+    <skos:notation>60108030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-601080"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#hasFinancialSnapshot">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has financial snapshot</rdfs:label>
+    <rdfs:comment xml:lang="en">Links a company to a dated snapshot of its market and financial indicators.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://schema.org/Corporation"/>
+    <rdfs:range rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#FinancialSnapshot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-10102010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Integrated Oil &amp; Gas</skos:prefLabel>
+    <skos:notation>10102010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-101020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-45">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSector"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Information Technology</skos:prefLabel>
+    <skos:notation>45</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60201030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Real Estate Development</skos:prefLabel>
+    <skos:notation>60201030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-602010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-301010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Consumer Staples Distribution &amp; Retail</skos:prefLabel>
+    <skos:notation>301010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-3010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-15105010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Forest Products</skos:prefLabel>
+    <skos:notation>15105010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-151050"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25302020">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Specialized Consumer Services</skos:prefLabel>
+    <skos:notation>25302020</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-253020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-45202030">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Technology Hardware, Storage &amp; Peripherals</skos:prefLabel>
+    <skos:notation>45202030</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-452020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSClassificationLevel"/>
+    <rdfs:label xml:lang="en">GICS industry group</rdfs:label>
+    <rdfs:comment xml:lang="en">Second level of GICS (4-digit code).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-255010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Distributors</skos:prefLabel>
+    <skos:notation>255010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2550"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-35102015">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Health Care Services</skos:prefLabel>
+    <skos:notation>35102015</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-351020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-60">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSector"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Real Estate</skos:prefLabel>
+    <skos:notation>60</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-30201010">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSSubIndustry"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Brewers</skos:prefLabel>
+    <skos:notation>30201010</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-302010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-2550">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICSIndustryGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Consumer Discretionary Distribution &amp; Retail</skos:prefLabel>
+    <skos:notation>2550</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#GICS"/>
+    <skos:broader rdf:resource="https://w3id.org/FAIR-course-UT/2026/group21/ont#gics-25"/>
+  </rdf:Description>
+</rdf:RDF>

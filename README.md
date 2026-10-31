@@ -9,13 +9,24 @@ metadata in a FAIR Data Point.
 
 ## Persistent identifiers (w3id)
 
-| Identifier | Resolves to | Content |
-|---|---|---|
-| `https://w3id.org/FAIR-course-UT/2025-2026/group21/ont` | `ontology/group21-ont.ttl` | Mini ontology + GICS concept scheme (base for `ont#...` terms) |
-| `https://w3id.org/FAIR-course-UT/2025-2026/group21/data` | `data/rdf/sp500-financials.ttl` | FAIRified dataset (base for `data#...` resources) |
-| `https://w3id.org/FAIR-course-UT/2025-2026/group21/data-original` | `data/original/constituents-financials.csv` | Original file as downloaded |
+Namespace: `https://w3id.org/FAIR-course-UT/2026/group21/`, served by the course relay
+([rules](https://github.com/luizbonino/pid-relay/tree/main/rules/FAIR-course-UT/2026/group21)).
 
-Hash URIs are used: `.../data#company-AAPL` resolves to the document `.../data`, which describes `#company-AAPL`.
+| Identifier (after the namespace) | Resolves to | Content |
+|---|---|---|
+| *(namespace itself)* | this repository | Project landing page |
+| `ont` | `ontology/group21-ont.ttl` | Mini ontology + GICS concept scheme (base for `ont#...` terms) |
+| `data` | `data/rdf/sp500-financials.ttl` | FAIRified dataset (base for `data#...` resources) |
+| `data-original` | `data/original/constituents-financials.csv` | Original file as downloaded |
+| `metadata/{fdp,catalog,dataset,distribution-original,distribution-rdf,publisher}` | `metadata/records/group21-metadata.ttl` | DCAT metadata records |
+| `shapes/{dataset,distribution-original,distribution-rdf}` | `metadata/schemas/*-shape.ttl` | SHACL metadata schemas (base for `shapes/...#` shapes) |
+
+Content negotiation: `ont`, `data`, `metadata/...` and `shapes/...` return the Turtle file to RDF clients
+(`text/turtle`, `application/rdf+xml` for `ont`) and the repository folder to browsers. Hash URIs are used:
+`.../data#company-AAPL` resolves to the document `.../data`, which describes `#company-AAPL`.
+
+Try it: `curl -sIL -H "Accept: text/turtle" https://w3id.org/FAIR-course-UT/2026/group21/data`
+or the [resolver](https://fair-testbed.eemcs.utwente.nl/pid-manager/resolve).
 
 ## Repository layout
 
@@ -32,10 +43,10 @@ metadata/
   schemas/dataset-shape.ttl               SHACL metadata schema - dataset
   schemas/distribution-original-shape.ttl SHACL metadata schema - original CSV distribution
   schemas/distribution-rdf-shape.ttl      SHACL metadata schema - RDF distribution
-  records/                                metadata records exported from the FAIR Data Point
+  records/group21-metadata.ttl            DCAT metadata records (FDP, catalog, dataset, 2 distributions)
 queries/                                  SPARQL competency questions (+ results)
 scripts/                                  clean.py, triplify.py, ontology-core.ttl
-docs/                                     data model diagram
+docs/                                     data model diagram, FAIRness assessment, w3id rules + tests (copy)
 ```
 
 ## Semantic data model

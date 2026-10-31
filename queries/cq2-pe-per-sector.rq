@@ -1,5 +1,5 @@
 # CQ2: Which sector has the highest average price/earnings ratio (profitable companies only)?
-PREFIX ont:  <https://w3id.org/FAIR-course-UT/2025-2026/group21/ont#>
+PREFIX ont:  <https://w3id.org/FAIR-course-UT/2026/group21/ont#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 SELECT ?sectorLabel (ROUND(AVG(?pe)*10)/10 AS ?avgPE) (COUNT(?co) AS ?n)
 WHERE {

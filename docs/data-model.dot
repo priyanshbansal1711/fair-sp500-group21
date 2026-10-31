@@ -1,6 +1,6 @@
 digraph G {
   graph [rankdir=LR, fontname="Inter", fontsize=12, pad=0.3, nodesep=0.5, ranksep=0.9, bgcolor="white",
-         label="Semantic data model - S&P 500 company financials (group 21)\nblue = reused vocabulary term   |   orange = own term (ont: = https://w3id.org/FAIR-course-UT/2025-2026/group21/ont#)\nAll four ont:GICS* classes are rdfs:subClassOf skos:Concept (SKOS)", labelloc=t, labeljust=l];
+         label="Semantic data model - S&P 500 company financials (group 21)\nblue = reused vocabulary term   |   orange = own term (ont: = https://w3id.org/FAIR-course-UT/2026/group21/ont#)\nAll four ont:GICS* classes are rdfs:subClassOf skos:Concept (SKOS)", labelloc=t, labeljust=l];
   node  [shape=plain, fontname="Inter", fontsize=11];
   edge  [fontname="Inter", fontsize=10, color="#555555", arrowsize=0.7];
 
